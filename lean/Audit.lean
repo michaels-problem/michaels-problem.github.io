@@ -1,0 +1,286 @@
+import AutomaticContinuity
+import Lean.Util.CollectAxioms
+
+set_option autoImplicit false
+set_option pp.universes true
+
+/-! Definition bodies, full key types, and transitive axioms.
+The original target is now proved unconditionally by `theoremA`. Earlier
+conditional reductions are retained and audited as supporting results. -/
+
+universe u
+
+example : AutomaticContinuity.TheoremAStatement.{u} := AutomaticContinuity.theoremA
+
+#check @AutomaticContinuity.theoremA
+#check @AutomaticContinuity.finiteFlagApproximation
+#check @AutomaticContinuity.finiteFlagUnitExtension
+#check @AutomaticContinuity.finiteFlagHalfCutApproximation
+#print axioms AutomaticContinuity.theoremA
+#print axioms AutomaticContinuity.finiteFlagApproximation
+#print axioms AutomaticContinuity.finiteFlagHalfCutApproximation
+
+#print AutomaticContinuity.Character
+#print AutomaticContinuity.IsSubmultiplicative
+#print AutomaticContinuity.IsLocallyMultiplicativelyConvex
+#print AutomaticContinuity.BoundedOnBoundedSets
+#print AutomaticContinuity.TheoremAStatement
+#print AutomaticContinuity.HasFiniteCoefficientNorms
+#print AutomaticContinuity.ArensInterpolationStatement
+#print AutomaticContinuity.FiniteFlagApproximationStatement
+#print AutomaticContinuity.CoefficientStageRepresentationStatement
+#print AutomaticContinuity.FiniteFlagLocalExtensionStatement
+#print AutomaticContinuity.FiniteFlagUnitExtensionStatement
+
+#check @AutomaticContinuity.exists_bounded_sequence_of_unbounded_character
+#check @AutomaticContinuity.PolynomialSubstitution.exists_substitution
+#check @AutomaticContinuity.CoefficientSeries.coefficientCompleteSpace
+#check @AutomaticContinuity.CoefficientSeries.polynomialHom_denseRange
+#check @AutomaticContinuity.CoefficientSeries.continuous_Character_iff_evaluation
+#check @AutomaticContinuity.CoefficientSeries.summable_of_q_summable
+#check @AutomaticContinuity.CoefficientSeries.exists_limit_of_successive_q_bound
+#check @AutomaticContinuity.finiteStageConstruction_of_approximation
+#check @AutomaticContinuity.escapePair_of_finiteStages_and_representation
+#check @AutomaticContinuity.UnitizationTopology.isLocallyMultiplicativelyConvex
+#check @AutomaticContinuity.theoremA_of_unitalBoundedness
+#check @AutomaticContinuity.universalSubstitution
+#check @AutomaticContinuity.theoremA_of_remaining_analytic_inputs
+#check @AutomaticContinuity.arensInterpolation
+#check @AutomaticContinuity.coefficientStageRepresentation
+#check @AutomaticContinuity.theoremA_of_flag_approximation
+#check @AutomaticContinuity.theoremA_of_finite_stage_construction
+#check @AutomaticContinuity.BanachStages.exists_of_compatible
+#check @AutomaticContinuity.FiniteTaylor.evaluate_ofEntire
+#check @AutomaticContinuity.FiniteTaylor.q_sub_ofEntire_le
+#check @AutomaticContinuity.q_embedFiniteCoefficients
+#check @AutomaticContinuity.evaluate_embedFiniteCoefficients
+#check @AutomaticContinuity.DenseInverseLimit.exists_compatible
+#check @AutomaticContinuity.Bezout.denseRange_mapSolution
+#check @AutomaticContinuity.Bezout.solutionCompleteSpace
+#check @AutomaticContinuity.Bezout.lipschitzWith_mapSolution
+
+#print axioms AutomaticContinuity.exists_bounded_sequence_of_unbounded_character
+#print axioms AutomaticContinuity.Character.map_one
+#print axioms AutomaticContinuity.Character.unitize_inr
+#print axioms AutomaticContinuity.boundedOnBoundedSets_iff_image
+#print axioms AutomaticContinuity.IsLocallyMultiplicativelyConvex.continuousMul
+#print axioms AutomaticContinuity.HasFiniteCoefficientNorms.mul
+#print axioms AutomaticContinuity.CoefficientSeries.qSeminorm
+#print axioms AutomaticContinuity.CoefficientSeries.q_mul_le
+#print axioms AutomaticContinuity.CoefficientSeries.q_eq_zero_iff
+#print axioms AutomaticContinuity.CoefficientSeries.polynomialHom
+#print axioms AutomaticContinuity.CoefficientSeries.ofPolynomial_injective
+#print axioms AutomaticContinuity.CoefficientSeries.tendsto_truncate
+#print axioms AutomaticContinuity.CoefficientSeries.polynomialHom_denseRange
+#print axioms AutomaticContinuity.CoefficientSeries.coefficientT2Space
+#print axioms AutomaticContinuity.CoefficientSeries.coefficientCompleteSpace
+#print axioms AutomaticContinuity.CoefficientSeries.isLocallyMultiplicativelyConvex
+#print axioms AutomaticContinuity.CoefficientSeries.evaluationHom
+#print axioms AutomaticContinuity.CoefficientSeries.norm_evaluate_le
+#print axioms AutomaticContinuity.CoefficientSeries.continuous_Character_iff_evaluation
+#print axioms AutomaticContinuity.CoefficientSeries.summable_of_q_summable
+#print axioms AutomaticContinuity.CoefficientSeries.exists_limit_of_successive_q_bound
+#print axioms AutomaticContinuity.PolynomialSubstitution.exists_substitution
+#print axioms AutomaticContinuity.iInter_tailSet_eq_empty
+#print axioms AutomaticContinuity.escape_incompatible_with_interpolation
+#print axioms AutomaticContinuity.isEscapeMap_of_finiteStage_tendsto
+#print axioms AutomaticContinuity.finiteStageConstruction_of_approximation
+#print axioms AutomaticContinuity.finiteStageCauchy_bound
+#print axioms AutomaticContinuity.escapePair_of_finiteStages_and_representation
+#print axioms AutomaticContinuity.UnitizationTopology.completeSpace
+#print axioms AutomaticContinuity.UnitizationTopology.isLocallyMultiplicativelyConvex
+#print axioms AutomaticContinuity.theoremA_of_unitalBoundedness
+#print axioms AutomaticContinuity.universalSubstitution
+#print axioms AutomaticContinuity.theoremA_of_remaining_analytic_inputs
+#print axioms AutomaticContinuity.arensInterpolation
+#print axioms AutomaticContinuity.coefficientStageRepresentation
+#print axioms AutomaticContinuity.theoremA_of_flag_approximation
+#print axioms AutomaticContinuity.theoremA_of_finite_stage_construction
+#print axioms AutomaticContinuity.BanachStages.exists_of_compatible
+#print axioms AutomaticContinuity.FiniteTaylor.evaluate_ofEntire
+#print axioms AutomaticContinuity.FiniteTaylor.q_sub_ofEntire_le
+#print axioms AutomaticContinuity.FiniteCauchy.coefficient_eq_of_entire
+#print axioms AutomaticContinuity.FiniteCauchy.hasSum_coefficient_mul_monomial
+#print axioms AutomaticContinuity.q_embedFiniteCoefficients
+#print axioms AutomaticContinuity.evaluate_embedFiniteCoefficients
+#print axioms AutomaticContinuity.finiteStageCauchy_bound_at_radius
+#print axioms AutomaticContinuity.DenseInverseLimit.exists_compatible
+#print axioms AutomaticContinuity.Bezout.denseRange_mapSolution
+#print axioms AutomaticContinuity.Bezout.solutionCompleteSpace
+#print axioms AutomaticContinuity.Bezout.lipschitzWith_mapSolution
+
+/-! Exact types of the additional geometric and local analytic endpoints. -/
+#check @AutomaticContinuity.theoremA_of_local_flag_extension
+#check @AutomaticContinuity.theoremA_of_unit_flag_extension
+#check @AutomaticContinuity.finiteFlagLocalExtension_iff_approximation
+#check @AutomaticContinuity.finiteFlagUnitExtension_iff_approximation
+#check @AutomaticContinuity.finiteFlagApproximation_one
+#check @AutomaticContinuity.ThreeStageConstruction.exists_stage_family_through_three
+#check @AutomaticContinuity.FlagPolynomialSeparation.isPolynomiallyConvex_compactForbiddenGraph
+#check @AutomaticContinuity.PolynomialConvexNeighbourhood.exists_closedBall_compactForbiddenGraph
+#check @AutomaticContinuity.FlagTotalSpace.exists_uniform_tube
+#check @AutomaticContinuity.BallPointPush.exists_small_automorphism_pushing_point
+#check @AutomaticContinuity.BallComplementEmbeddings.exists_biholomorphic_domain
+#check @AutomaticContinuity.BallComplementEmbeddings.exists_normalized_entire_embedding
+#check @AutomaticContinuity.BallComplementSprays.exists_normalized_local_spray
+#check @AutomaticContinuity.FlagLocalSprays.exists_normalized_vertical_spray
+#check @AutomaticContinuity.CompactFlagSprayCover.exists_finite_graph_cover
+#check @AutomaticContinuity.OneChartApproximation.exists_entire_approx_in_one_chart
+#check @AutomaticContinuity.BallComplementOneChartApproximation.exists_neighborhood_with_entire_approximation
+#check @AutomaticContinuity.UniformParameterKoenigs.exists_normalized_joint_limit
+#check @AutomaticContinuity.ArbitraryFinitePrefix.exists_stage_family_up_to
+#check @AutomaticContinuity.ArbitraryFinitePrefix.not_tendsto_of_growing_third_height
+#check @AutomaticContinuity.HolomorphicGraphConvexity.isPolynomiallyConvex_sectionGraph
+#check @AutomaticContinuity.FlagSectionPatching.exists_patch_tolerance
+#check @AutomaticContinuity.PolynomialFunctionAlgebra.character_point_mem_hull
+#check @AutomaticContinuity.PolynomialFunctionAlgebra.character_eq_evaluation
+#check @AutomaticContinuity.PolynomialBezoutCutoff.exists_polynomial_cutoff
+#check @AutomaticContinuity.PolynomialAlgebraicUnion.isPolynomiallyConvex_union
+#check @AutomaticContinuity.BasinGlobalization.LocalConjugacy.exists_biholomorphic_basins
+#check @AutomaticContinuity.ParameterBasin.exists_of_uniform_koenigs
+#print AutomaticContinuity.ParameterBasin.HasHolomorphicProductTrivialization
+#check @AutomaticContinuity.PolynomialFunctionAlgebra.mem_algebra_of_approx
+#check @AutomaticContinuity.PolynomialFunctionAlgebra.restrict
+#check @AutomaticContinuity.PolynomialFunctionCutoff.exists_polynomial_cutoff_of_approx
+#check @AutomaticContinuity.HolomorphicGraphUnion.isPolynomiallyConvex_union_sectionGraph
+#check @AutomaticContinuity.HolomorphicGraphUnion.isPolynomiallyConvex_forbidden_union_sectionGraph
+#check @AutomaticContinuity.HolomorphicGraphUnion.isPolynomiallyConvex_coordinates_forbidden_union_sectionGraph
+#print AutomaticContinuity.ParameterOvershears.flow
+#print AutomaticContinuity.ParameterOvershears.vectorField
+#check @AutomaticContinuity.ParameterOvershears.continuous_joint_flow
+#check @AutomaticContinuity.ParameterOvershears.continuousHomeomorph
+#check @AutomaticContinuity.ParameterOvershears.differentiable_joint_flow
+#check @AutomaticContinuity.ParameterOvershears.differentiable_homeomorph_symm
+#check @AutomaticContinuity.ParameterOvershears.hasDerivAt_flow
+#check @AutomaticContinuity.HomogeneousCoefficientBasis.existsUnique_coefficients
+#print AutomaticContinuity.OvershearEulerBounds.fiberField
+#print AutomaticContinuity.OvershearEulerBounds.remainder
+#check @AutomaticContinuity.OvershearEulerBounds.fiberField_eq_vectorField_snd
+#check @AutomaticContinuity.OvershearEulerBounds.norm_remainder_le
+#check @AutomaticContinuity.OvershearEulerBounds.norm_remainder_le_uniform
+#check @AutomaticContinuity.OvershearEulerBounds.norm_inverse_remainder_le_uniform
+
+#print axioms AutomaticContinuity.theoremA_of_unit_flag_extension
+#print axioms AutomaticContinuity.finiteFlagUnitExtension_iff_approximation
+#print axioms AutomaticContinuity.finiteFlagApproximation_one
+#print axioms AutomaticContinuity.ThreeStageConstruction.exists_stage_family_through_three
+#print axioms AutomaticContinuity.FlagPolynomialSeparation.isPolynomiallyConvex_compactForbiddenGraph
+#print axioms AutomaticContinuity.PolynomialConvexNeighbourhood.exists_closedBall_compactForbiddenGraph
+#print axioms AutomaticContinuity.BallPointPush.exists_small_automorphism_pushing_point
+#print axioms AutomaticContinuity.BallComplementEmbeddings.exists_biholomorphic_domain
+#print axioms AutomaticContinuity.BallComplementEmbeddings.exists_normalized_entire_embedding
+#print axioms AutomaticContinuity.BallComplementSprays.exists_normalized_local_spray
+#print axioms AutomaticContinuity.FlagLocalSprays.exists_normalized_vertical_spray
+#print axioms AutomaticContinuity.CompactFlagSprayCover.exists_finite_graph_cover
+#print axioms AutomaticContinuity.OneChartApproximation.exists_entire_approx_in_one_chart
+#print axioms AutomaticContinuity.BallComplementOneChartApproximation.exists_neighborhood_with_entire_approximation
+#print axioms AutomaticContinuity.UniformParameterKoenigs.exists_normalized_joint_limit
+#print axioms AutomaticContinuity.ArbitraryFinitePrefix.exists_stage_family_up_to
+#print axioms AutomaticContinuity.ArbitraryFinitePrefix.not_tendsto_of_growing_third_height
+#print axioms AutomaticContinuity.HolomorphicGraphConvexity.isPolynomiallyConvex_sectionGraph
+#print axioms AutomaticContinuity.FlagSectionPatching.exists_patch_tolerance
+#print axioms AutomaticContinuity.PolynomialFunctionAlgebra.character_eq_evaluation
+#print axioms AutomaticContinuity.PolynomialBezoutCutoff.exists_polynomial_cutoff
+#print axioms AutomaticContinuity.PolynomialAlgebraicUnion.isPolynomiallyConvex_union
+#print axioms AutomaticContinuity.BasinGlobalization.LocalConjugacy.exists_biholomorphic_basins
+#print axioms AutomaticContinuity.ParameterBasin.exists_of_uniform_koenigs
+#print axioms AutomaticContinuity.PolynomialFunctionAlgebra.mem_algebra_of_approx
+#print axioms AutomaticContinuity.PolynomialFunctionAlgebra.restrict
+#print axioms AutomaticContinuity.PolynomialFunctionCutoff.exists_polynomial_cutoff_of_approx
+#print axioms AutomaticContinuity.HolomorphicGraphUnion.isPolynomiallyConvex_union_sectionGraph
+#print axioms AutomaticContinuity.HolomorphicGraphUnion.isPolynomiallyConvex_forbidden_union_sectionGraph
+#print axioms AutomaticContinuity.HolomorphicGraphUnion.isPolynomiallyConvex_coordinates_forbidden_union_sectionGraph
+#print axioms AutomaticContinuity.ParameterOvershears.continuousHomeomorph
+#print axioms AutomaticContinuity.ParameterOvershears.differentiable_joint_flow
+#print axioms AutomaticContinuity.ParameterOvershears.differentiable_homeomorph_symm
+#print axioms AutomaticContinuity.ParameterOvershears.hasDerivAt_flow
+#print axioms AutomaticContinuity.HomogeneousCoefficientBasis.existsUnique_coefficients
+#print axioms AutomaticContinuity.OvershearEulerBounds.norm_remainder_le_uniform
+#print axioms AutomaticContinuity.OvershearEulerBounds.norm_inverse_remainder_le_uniform
+
+/-! Two-hour continuation: complete polynomial flows, actual radial pushes,
+coherent iteration, and the fixed-base biholomorphic basin. -/
+#print AutomaticContinuity.EntireStageFamily
+#print AutomaticContinuity.EntireStageFamilyStatement
+#check @AutomaticContinuity.theoremA_of_entireStageFamilies
+#check @AutomaticContinuity.HomogeneousFieldCoefficientSelection.decomposition_of_array
+#check @AutomaticContinuity.PolynomialFieldArrays.polynomial_extract
+#check @AutomaticContinuity.PolynomialFieldFamily.fieldSum_eq
+#check @AutomaticContinuity.PolynomialFieldRealization.exists_polynomial_uniform_euclidean_first_order_step
+#print AutomaticContinuity.RadialCompactPush.Realization
+#check @AutomaticContinuity.RadialPolynomialRealization.realization
+#check @AutomaticContinuity.RadialPolynomialPush.exists_compact_push
+#check @AutomaticContinuity.RadialPolynomialPush.exists_expelling_push
+#check @AutomaticContinuity.FlagObstaclePush.exists_fixed_tube_forbidden_graph_push
+#check @AutomaticContinuity.FlagInitialRadialState.exists_initial_state
+#print AutomaticContinuity.RadialPushIteration.State
+#check @AutomaticContinuity.RadialPushIteration.exists_controlled_iteration
+#check @AutomaticContinuity.RadialAdaptiveIteration.exists_adaptive_iteration
+#check @AutomaticContinuity.RadialAdaptiveIteration.inverse_increment_on_geometric_cylinder
+#check @AutomaticContinuity.NonautonomousEntryDomains.exists_forward_limit
+#check @AutomaticContinuity.NonautonomousForwardLimit.exists_holomorphic_forward_limit
+#check @AutomaticContinuity.NonautonomousInverseLimit.exists_holomorphic_inverse_limit
+#check @AutomaticContinuity.NonautonomousInverseTails.eventually_inverse_tail_le_of_geometric_budget
+#check @AutomaticContinuity.NonautonomousBiholomorphism.exists_biholomorphism_of_inverse_convergence
+#check @AutomaticContinuity.FixedBaseRadialBasin.exists_biholomorphic_domain
+#check @AutomaticContinuity.FlagCompactBasin.exists_family
+#check @AutomaticContinuity.FlagCompactBasin.exists_neighbourhood_family
+#check @AutomaticContinuity.FlagDominatingFamily.exists_neighbourhood_dominating_family
+#check @AutomaticContinuity.FlagHomotopyPatching.exists_patch
+
+#print axioms AutomaticContinuity.theoremA_of_entireStageFamilies
+#print axioms AutomaticContinuity.RadialPolynomialRealization.realization
+#print axioms AutomaticContinuity.RadialPolynomialPush.exists_compact_push
+#print axioms AutomaticContinuity.FlagObstaclePush.exists_fixed_tube_forbidden_graph_push
+#print axioms AutomaticContinuity.RadialPushIteration.exists_controlled_iteration
+#print axioms AutomaticContinuity.RadialAdaptiveIteration.exists_adaptive_iteration
+#print axioms AutomaticContinuity.NonautonomousBiholomorphism.exists_biholomorphism_of_inverse_convergence
+#print axioms AutomaticContinuity.FixedBaseRadialBasin.exists_biholomorphic_domain
+#print axioms AutomaticContinuity.FlagCompactBasin.exists_neighbourhood_family
+#print axioms AutomaticContinuity.FlagDominatingFamily.exists_neighbourhood_dominating_family
+#print axioms AutomaticContinuity.FlagHomotopyPatching.exists_patch
+
+/-! The completed convex approximation and half-cut route. -/
+#print AutomaticContinuity.FiniteFlagHalfCutApproximationStatement
+#check @AutomaticContinuity.PolynomialFunctionAlgebra.exists_polynomial_approx_on_convex
+#check @AutomaticContinuity.mem_closedSubmodule_of_analytic_continuation
+#check @AutomaticContinuity.CompactFamilyHolomorphy.differentiableOn_of_jointly_continuous
+#check @AutomaticContinuity.isPolynomiallyConvexOf_compact_convex
+#check @AutomaticContinuity.CompactBaseFlagFamily.exists_neighbourhood_strong_margin_family
+#check @AutomaticContinuity.FlagSectionApproximation.exists_fixed_extending_section
+#check @AutomaticContinuity.ProductHalfcutOpenness.exists_local_stability
+#check @AutomaticContinuity.FlagSectionApproximation.approximable_of_convex_local_stability
+#check @AutomaticContinuity.halfCut_of_product_stability
+#check @AutomaticContinuity.FiniteFlagCutReduction.finiteFlagApproximation_of_halfCut
+#check @AutomaticContinuity.FlagConvexGlobalization.exists_global_section
+#print axioms AutomaticContinuity.PolynomialFunctionAlgebra.exists_polynomial_approx_on_convex
+#print axioms AutomaticContinuity.CompactBaseFlagFamily.exists_neighbourhood_strong_margin_family
+#print axioms AutomaticContinuity.ProductHalfcutOpenness.exists_local_stability
+#print axioms AutomaticContinuity.halfCut_of_product_stability
+
+/-! Exhaustively inspect declarations owned by the imported project modules,
+including private helpers, definitions and generated declarations. The named endpoint prints
+above remain useful for human review. This command proves no mathematical
+statement: it fails the audit if an unexpected transitive axiom is encountered. -/
+run_cmd do
+  let env ← Lean.getEnv
+  let allowed : Array Lean.Name := #[``propext, ``Classical.choice, ``Quot.sound]
+  let mut count : Nat := 0
+  let mut theoremCount : Nat := 0
+  let mut used : Array Lean.Name := #[]
+  for (name, info) in env.constants.toList do
+    let projectOwned := match env.getModuleIdxFor? name with
+      | some idx => (`AutomaticContinuity).isPrefixOf env.header.moduleNames[idx]!
+      | none => false
+    if projectOwned then
+      if info.isUnsafe then
+        throwError "Unsafe project declaration: {name}"
+      count := count + 1
+      if info.isTheorem then theoremCount := theoremCount + 1
+      let axioms ← Lean.collectAxioms name
+      for axiomName in axioms do
+        unless allowed.contains axiomName do
+          throwError "Unexpected project axiom dependency: {name} uses {axiomName}"
+        unless used.contains axiomName do used := used.push axiomName
+  Lean.logInfo m!"PROJECT_AXIOM_AUDIT declarations={count} theorems={theoremCount} unexpected=0 unsafe=0"
+  Lean.logInfo m!"PROJECT_AXIOM_UNION {used}"

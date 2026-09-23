@@ -1,0 +1,9 @@
+Selected theorem-type and axiom lines from the successful recorded checks.
+Machine-specific runner locations are omitted.
+
+AutomaticContinuity.theoremA.{u_1} : AutomaticContinuity.TheoremAStatement.{u_1}
+'AutomaticContinuity.theoremA' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+THEOREM_A_COMPLETION_AXIOMS [propext, Classical.choice, Quot.sound]
+THEOREM_A_COMPLETION_AUDIT exactStatement=true universePolymorphic=true unexpected=0 unsafe=0
+PROJECT_AXIOM_AUDIT declarations=3199 theorems=2478 unexpected=0 unsafe=0
+PROJECT_AXIOM_UNION [propext, Quot.sound, Classical.choice]

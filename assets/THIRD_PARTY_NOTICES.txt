@@ -1,0 +1,1 @@
+Mathematical typesetting uses KaTeX 0.16.22 (MIT licence). See katex/LICENSE. Fonts are bundled locally. No remote fonts or analytics are used.

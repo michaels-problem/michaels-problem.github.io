@@ -1,0 +1,56 @@
+{
+  "originalPdfSha256": "92D20DF8D5973D741F5B0AC5327AB0944E74FBB4C1DDEA12324C18D8FA42A3C2",
+  "pageCount": 8,
+  "dpi": 130,
+  "format": "png",
+  "pages": [
+    {
+      "page": 1,
+      "filename": "page-1.png",
+      "sha256": "929FC9426A55CFB2C5AD0F7D2DB40590BD2390F406A24F3B8F0439C8F009B4F8",
+      "bytes": 359562
+    },
+    {
+      "page": 2,
+      "filename": "page-2.png",
+      "sha256": "F0B03FB51D4CCE4BD3A330DD6D3968F904653890897E8938FA56863F505CAC97",
+      "bytes": 395574
+    },
+    {
+      "page": 3,
+      "filename": "page-3.png",
+      "sha256": "DB75091FCF0D0A87E2CDBF1C0EDD9A8ACA8A7B8D8E4451D520E7AD874C8BBC74",
+      "bytes": 359194
+    },
+    {
+      "page": 4,
+      "filename": "page-4.png",
+      "sha256": "61C4ACB41C1AF1A34C3401F68CFB0501456BF6EAA7E1B255453E6C530AFEE101",
+      "bytes": 305831
+    },
+    {
+      "page": 5,
+      "filename": "page-5.png",
+      "sha256": "6346BA5C5CD5A285A4DE83F4822C74178394D35862C16A6E96237D5856D39543",
+      "bytes": 364513
+    },
+    {
+      "page": 6,
+      "filename": "page-6.png",
+      "sha256": "51A04833FC537A82CB52322FD27B426DA8E92F1269C0D3D4F11376E615796A69",
+      "bytes": 324890
+    },
+    {
+      "page": 7,
+      "filename": "page-7.png",
+      "sha256": "D97695D28E2EF9C1771BDB21B684FC9D2EBD93E758A6C3BBA660978EFC0CB130",
+      "bytes": 335754
+    },
+    {
+      "page": 8,
+      "filename": "page-8.png",
+      "sha256": "AF123BC4C88A6F62A6B19059DEC1CED712E6C901BCBBB0824BDA114130DD6117",
+      "bytes": 297768
+    }
+  ]
+}

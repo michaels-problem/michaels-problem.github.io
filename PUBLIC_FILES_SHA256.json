@@ -1,0 +1,3075 @@
+{
+  "hashAlgorithm": "SHA256",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "assets/guides.json",
+      "bytes": 28382,
+      "sha256": "11E01790108F1F6DE73BE2C3B8DCC9ED4A21073DDD2B1CAC7CFC71994B87CE56"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_AMS-Regular.ttf",
+      "bytes": 63632,
+      "sha256": "68534840BCFDD2BFFB6F0E8DEB48684DD01E7F04EA2813267577AFB906DE1D13"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_AMS-Regular.woff",
+      "bytes": 33516,
+      "sha256": "30DA91E84C893F875E252689FAEBDC590B2871145E8ADC7F9A9D4DBD8CE0B251"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_AMS-Regular.woff2",
+      "bytes": 28076,
+      "sha256": "0CDD387C9590A1A9F9794560022DBB59654A7D86F187AA0C81495AD42D3A7308"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Caligraphic-Bold.ttf",
+      "bytes": 12368,
+      "sha256": "07D8E303CE4FC12B4BB54F1004170DD190A1F3DB45D400FE68060DF3E0897268"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Caligraphic-Bold.woff",
+      "bytes": 7716,
+      "sha256": "1AE6BD7475590E97E7F145A89E09CCDE322F7A6BC0B91607B1C8B8EE28290FED"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Caligraphic-Bold.woff2",
+      "bytes": 6912,
+      "sha256": "DE7701E42CF1F4CF0B766C03FB27977207EEE2F4FD5D76FA82188406DA43EA4C"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Caligraphic-Regular.ttf",
+      "bytes": 12344,
+      "sha256": "ED0B74372FEEFCBB9C0666B2E210DA37B7E49FA7FBBF3EEB11DB5F693DACFBB7"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Caligraphic-Regular.woff",
+      "bytes": 7656,
+      "sha256": "3398DD02302557A793F2863F88E02D96CE10DF2ABFFA07C8E9FA90775116E65C"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Caligraphic-Regular.woff2",
+      "bytes": 6908,
+      "sha256": "5D53E70AD607C2352162DEC9E0923FB54ECDAFACCBF604CD8DCF7D00FACB989B"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Fraktur-Bold.ttf",
+      "bytes": 19584,
+      "sha256": "9163DF9C7122432E6495B4229FA9071CF9AE86A758AE5EFC4924EC2E1A6DBCE1"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Fraktur-Bold.woff",
+      "bytes": 13296,
+      "sha256": "9BE7CEB88004AB8AD124082246FBFCCA4091E36385D4EC6ED1DF67375DAD50FB"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Fraktur-Bold.woff2",
+      "bytes": 11348,
+      "sha256": "74444EFD593C005E3F4573B44524704C0AF0A937FE911CCA9E94068D0D140D3F"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Fraktur-Regular.ttf",
+      "bytes": 19572,
+      "sha256": "1E6F9579E90E2CAC37F8F60A597C436E075C114385652B7CBEB0DEC0421291B3"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Fraktur-Regular.woff",
+      "bytes": 13208,
+      "sha256": "5E28753BE717DAC97F559F49BC10BE9CF3C124DDCABDA6659D11CB68FEBC6463"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Fraktur-Regular.woff2",
+      "bytes": 11316,
+      "sha256": "51814D270D06FF0255DBA0799994FA4D8C84D11F09951D47595F4ABB1F3602DC"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-Bold.ttf",
+      "bytes": 51336,
+      "sha256": "138AC28D1663B3037E9C5F52371FA5C63D8324F4A38D22CD573E6EA3A3FD0CF8"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-Bold.woff",
+      "bytes": 29912,
+      "sha256": "C76C5D696297D51B9CB1639C7DA4334F0E7DEC81B42B11213B5E25EF671BB822"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-Bold.woff2",
+      "bytes": 25324,
+      "sha256": "0F60D1B897938EC918C8CE073092411BAF9438F6739465693FF18B0F9D20B021"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-BoldItalic.ttf",
+      "bytes": 32968,
+      "sha256": "70EE1F64A20F2048C21940EF46D0144FD215BAA953CA69AFD1E31E98544F708F"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-BoldItalic.woff",
+      "bytes": 19412,
+      "sha256": "A6F7EC0D846AC7AD975ADB8959C37ED49B94ACBC4AE436DB9CE9E20287E4A64C"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-BoldItalic.woff2",
+      "bytes": 16780,
+      "sha256": "99CD42A3C072D918F2F44984A807CF7AA16E13545FD0875FC07C6C65F99E715B"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-Italic.ttf",
+      "bytes": 33580,
+      "sha256": "0D85AE7CC30F23790A7F1A58C4A112FDCA8AAE769B6BA11429AF1D98B1B6CB3A"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-Italic.woff",
+      "bytes": 19676,
+      "sha256": "F1D6EF86F3B11A528BD5185199BD2443ECB2B0DEAD96D88674B5A2C12BE24BDF"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-Italic.woff2",
+      "bytes": 16988,
+      "sha256": "97479CA6CCE906ABC961ECAC96FAA5F9CA2E61B8E7670D475826BCDEE9A7C267"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-Regular.ttf",
+      "bytes": 53580,
+      "sha256": "D0332F52868370FD83AE7FA46470F90C8F2EAB2FCF12BC4F88080B340C95A830"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-Regular.woff",
+      "bytes": 30772,
+      "sha256": "C6368D87E8A1A3A5D337623D83D8DC4B868F242A9AD476237D6F8D1E0F168CDC"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Main-Regular.woff2",
+      "bytes": 26272,
+      "sha256": "C2342CD8B869E01752A9321DC17213FC40D4D04C79688C1D43F2CF316ABD7866"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Math-BoldItalic.ttf",
+      "bytes": 31196,
+      "sha256": "F9377AB0271CDA59AF24BCFFBD46A4D0C8A3572FFAFDBB38DE2AD5EA7B0D5EE5"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Math-BoldItalic.woff",
+      "bytes": 18668,
+      "sha256": "850C0AF5C2238497FEBAF5E461D880BF458C341F42F4F330F1B1AB5698B1998E"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Math-BoldItalic.woff2",
+      "bytes": 16400,
+      "sha256": "DC47344DBB6CB5B655C8460D561F4DF5F501B90C804AD3C6CEC65FE322351AB1"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Math-Italic.ttf",
+      "bytes": 31308,
+      "sha256": "08CE98E51B04D58945A301E639E02B6998AF29FDFD61A7B8AFDD07BBFC479D4A"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Math-Italic.woff",
+      "bytes": 18748,
+      "sha256": "8A8D244581371912B8F3F5A23E2437CB2A59CD9BCAEBB0346E722C05737A2571"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Math-Italic.woff2",
+      "bytes": 16440,
+      "sha256": "7AF58C5EC8F132A2DDDE9027C6D7814DECCE4D3B822A11192A42A20E2E973264"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_SansSerif-Bold.ttf",
+      "bytes": 24504,
+      "sha256": "1ECE03F79F95277D57DC7F6B435A74E1379B0D46104A8530286B60FF49369EA0"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_SansSerif-Bold.woff",
+      "bytes": 14408,
+      "sha256": "ECE03CFD83E22C212CDEF66FEB8442D25A083BEB988DB3F1883F3F9738D750BA"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_SansSerif-Bold.woff2",
+      "bytes": 12216,
+      "sha256": "E99AE51144BF1232EFCC1BFE5ADD36262C6866B0FAAB24FA75740E1B98577A62"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_SansSerif-Italic.ttf",
+      "bytes": 22364,
+      "sha256": "3931DD81FAED86BA021BB2BBDC36F5BED9A38D6B4F4077ACA59B265AA1B02083"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_SansSerif-Italic.woff",
+      "bytes": 14112,
+      "sha256": "91EE67500CC0129AA0ACE3AC5C61FF1692102F0F31D02B69347FBA35DCB75BF2"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_SansSerif-Italic.woff2",
+      "bytes": 12028,
+      "sha256": "00B26AC825E2095056396E0553B8AC26D3F8AD158C3826E28B4C45B385C4714A"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_SansSerif-Regular.ttf",
+      "bytes": 19436,
+      "sha256": "F36EA897E19F4A2E571D1E900E4E3710E438DEB05A842486045BA0A3E616A4AD"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_SansSerif-Regular.woff",
+      "bytes": 12316,
+      "sha256": "11E4DC8A6471FF6D6EE561D53D10FDE8F7489E798257FF449C5D37C197435605"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_SansSerif-Regular.woff2",
+      "bytes": 10344,
+      "sha256": "68E8C73EF42AFD3CCEC58BF0FBA302CCE448938E7FC020A5E31F8A952EEE1342"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Script-Regular.ttf",
+      "bytes": 16648,
+      "sha256": "1C67F068FEA8BB09BF099C088B1CF64BD27516A6E07F4684344873564BB66A67"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Script-Regular.woff",
+      "bytes": 10588,
+      "sha256": "D96CDF2B3BDD4D64A8FD5F74A4C467F123A8A73931CD435889F08FFAF9BF947A"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Script-Regular.woff2",
+      "bytes": 9644,
+      "sha256": "036D4E95149B69FF9BCC0CD55771EFEB25FFA3947293E69ACD78D5AC328C684B"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size1-Regular.ttf",
+      "bytes": 12228,
+      "sha256": "95B6D2F1A50173BFEDB8C63E1D1C99B10427D0A4DF4201CB44513B226951A22B"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size1-Regular.woff",
+      "bytes": 6496,
+      "sha256": "C943CC986384F59E86BEA5FD7DC50A9C4DFE567A7C05EB40D6790720DEAD97C9"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size1-Regular.woff2",
+      "bytes": 5468,
+      "sha256": "6B47C40166B6DBE21A5DFCA7718413F2147FD2399BE1BA605D8AD39CEDF25DFE"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size2-Regular.ttf",
+      "bytes": 11508,
+      "sha256": "A6B2099FB555C60E3A0DB3A08842EBF1D732C6EB4E4BF44913613BED4FC4E39B"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size2-Regular.woff",
+      "bytes": 6188,
+      "sha256": "2014C523C3210BCC166648C4D4CC57F05B747DF07A24277BF71C51E67DC79E3D"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size2-Regular.woff2",
+      "bytes": 5208,
+      "sha256": "D04C54219F9EAEC6D4D4FD42DFB28785975A4794D6B2FC71E566B9CD6DB842DD"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size3-Regular.ttf",
+      "bytes": 7588,
+      "sha256": "500E04D54F0D51666332C9D2089AA803BE22AA878ECA539E59FA53C6E522B082"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size3-Regular.woff",
+      "bytes": 4420,
+      "sha256": "6AB6B62E9B62DAE2C00DD90F791BD10950BE0ECC3490D7D6045F51C2E8FE0949"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size3-Regular.woff2",
+      "bytes": 3624,
+      "sha256": "73D591271B1604960CB10BB90FEE021670AF7297017E0E98480B332D11F51995"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size4-Regular.ttf",
+      "bytes": 10364,
+      "sha256": "C647367D1DD4E162468717D020E1FC0F1DC5C26EBFDFFBE55261713BF88C5877"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size4-Regular.woff",
+      "bytes": 5980,
+      "sha256": "99F9C6750B489C9462BF04900BD3F939DF9B829339DAAAAA99EF5495CDDDEA58"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Size4-Regular.woff2",
+      "bytes": 4928,
+      "sha256": "A4AF7D414440A1C1790825CFB700CF9CF43B0F2C4B04F0EBC523011AD9853EC0"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Typewriter-Regular.ttf",
+      "bytes": 27556,
+      "sha256": "F01F3E87D9C6A61C0C081CEB577ABD864EB00A612F7AC1620DD6915FAD2EF5AA"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Typewriter-Regular.woff",
+      "bytes": 16028,
+      "sha256": "E14FED02B1ABA7CE9F5AFD5844B5D0321B22351FEBC720E0DE8B8723527609F7"
+    },
+    {
+      "path": "assets/katex/fonts/KaTeX_Typewriter-Regular.woff2",
+      "bytes": 13568,
+      "sha256": "71D517D67827787CFABDF186914CC3358EDA539E37931941F2B2FD4A21F68C0B"
+    },
+    {
+      "path": "assets/katex/katex.min.css",
+      "bytes": 23352,
+      "sha256": "19095127357ED6D29FE0A63A6B000C913A89F7F1963B765DD3715E97C9852E75"
+    },
+    {
+      "path": "assets/katex/katex.min.js",
+      "bytes": 276701,
+      "sha256": "E8D885505949F3A5F4ABDD5DD0D53696BD1371AD26FFBF4F310DCD77C8CDAE89"
+    },
+    {
+      "path": "assets/katex/LICENSE",
+      "bytes": 1107,
+      "sha256": "766CCC1F306C885AA45542A9846BBD0A505B27A0374F146778171C2254CE18E3"
+    },
+    {
+      "path": "assets/manuscript/manifest.json",
+      "bytes": 1562,
+      "sha256": "51FB8453E8E5AE58BF6741E501E67A5917AB74DBCF99D6A23DF807FD93B3C6BF"
+    },
+    {
+      "path": "assets/manuscript/page-1.png",
+      "bytes": 359562,
+      "sha256": "929FC9426A55CFB2C5AD0F7D2DB40590BD2390F406A24F3B8F0439C8F009B4F8"
+    },
+    {
+      "path": "assets/manuscript/page-2.png",
+      "bytes": 395574,
+      "sha256": "F0B03FB51D4CCE4BD3A330DD6D3968F904653890897E8938FA56863F505CAC97"
+    },
+    {
+      "path": "assets/manuscript/page-3.png",
+      "bytes": 359194,
+      "sha256": "DB75091FCF0D0A87E2CDBF1C0EDD9A8ACA8A7B8D8E4451D520E7AD874C8BBC74"
+    },
+    {
+      "path": "assets/manuscript/page-4.png",
+      "bytes": 305831,
+      "sha256": "61C4ACB41C1AF1A34C3401F68CFB0501456BF6EAA7E1B255453E6C530AFEE101"
+    },
+    {
+      "path": "assets/manuscript/page-5.png",
+      "bytes": 364513,
+      "sha256": "6346BA5C5CD5A285A4DE83F4822C74178394D35862C16A6E96237D5856D39543"
+    },
+    {
+      "path": "assets/manuscript/page-6.png",
+      "bytes": 324890,
+      "sha256": "51A04833FC537A82CB52322FD27B426DA8E92F1269C0D3D4F11376E615796A69"
+    },
+    {
+      "path": "assets/manuscript/page-7.png",
+      "bytes": 335754,
+      "sha256": "D97695D28E2EF9C1771BDB21B684FC9D2EBD93E758A6C3BBA660978EFC0CB130"
+    },
+    {
+      "path": "assets/manuscript/page-8.png",
+      "bytes": 297768,
+      "sha256": "AF123BC4C88A6F62A6B19059DEC1CED712E6C901BCBBB0824BDA114130DD6117"
+    },
+    {
+      "path": "assets/paper.json",
+      "bytes": 227,
+      "sha256": "26D1FE31828BF873034E08171FA279FE7B4FC60A0309DB58DAC3F09198A43E90"
+    },
+    {
+      "path": "assets/site.js",
+      "bytes": 9881,
+      "sha256": "AAC37BC6782D34F5D33935BBB5A0FEE54F121C0961B54981AB2A9136C1184923"
+    },
+    {
+      "path": "assets/style.css",
+      "bytes": 12576,
+      "sha256": "D36D63AFBB6544CA785D478670BE51067D6173B6508AE1DDE359B29F46FDCB29"
+    },
+    {
+      "path": "assets/THIRD_PARTY_NOTICES.txt",
+      "bytes": 144,
+      "sha256": "0640B36CAA902B0051281AA766A583ED49A9E2A12D40F8196E5EC77BD5E3AAB3"
+    },
+    {
+      "path": "definitions/index.html",
+      "bytes": 13912,
+      "sha256": "0DB7EF3AAB25AFE92ABC33EF7A1D83DDFC08038130F1429FAB771B60441B26CF"
+    },
+    {
+      "path": "downloads/manifest.json",
+      "bytes": 3303,
+      "sha256": "279C14390A7F7E911909C03C1CA922CD3C480C226A29C4C32960533E2A413F37"
+    },
+    {
+      "path": "downloads/theorem-a-fresh-verification.zip",
+      "bytes": 8979969,
+      "sha256": "E5E2917FB7732A78B1C7F99DA4ED1CBACAB8DE1F8F2E4E51AA7AFCF71D896B0B"
+    },
+    {
+      "path": "downloads/theorem-a-lean-source.zip",
+      "bytes": 483512,
+      "sha256": "D4072D0F1E871BBA44856B9394E2945E4EF38E1D4EA6D879DADCB90FA460D320"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6028,
+      "sha256": "47CA4802D1C8D5369DB6B8F078AB33CCC9DAB96BA333FAD92EE18AF4D917D314"
+    },
+    {
+      "path": "lean/Audit.lean",
+      "bytes": 19331,
+      "sha256": "C89A2D8032D9FAD26895BA20EE4163D87C2F4D0983098358CB8FF0CB5FC17899"
+    },
+    {
+      "path": "lean/AutomaticContinuity/AdaptiveInverseControl.lean",
+      "bytes": 3851,
+      "sha256": "EDE44A5CCBA05B27D0E50E5F8C4BA20AB8953AB709CD5E0D43F7D6CEA1C2453D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/AdaptiveUniformLimit.lean",
+      "bytes": 3561,
+      "sha256": "F49E2FB33A3D4354213BB3E4F5F978F22A26B7AB5D7D5285B27E1CE064176FCC"
+    },
+    {
+      "path": "lean/AutomaticContinuity/AnalyticBridge.lean",
+      "bytes": 2781,
+      "sha256": "D76CDFD11ED1015B1DC58634BBD9D8F945DD9538EDD152AEB67BBAD4DCC0AB25"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ArbitraryFinitePrefix.lean",
+      "bytes": 6625,
+      "sha256": "70649965391ECB9BCC7069F204F93FDE24A264C6B58EAE14359904FD7862F0C6"
+    },
+    {
+      "path": "lean/AutomaticContinuity/Arens.lean",
+      "bytes": 1836,
+      "sha256": "4F4630209B778925248671D0CC44AB18D0AC7B4E0B8EF181131D5B59C62E5E12"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ArensAssembly.lean",
+      "bytes": 1552,
+      "sha256": "0D0427FA469DFC92250DE2D80ABB9622E3177F2B42AB92E04397BBE3F7FE591B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ArensBanach.lean",
+      "bytes": 4084,
+      "sha256": "B6D9A04719FA3F5D10CBAE9AD0B9634419C9557C84F5310774AEC91F17712BA1"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ArensInverseLimit.lean",
+      "bytes": 2922,
+      "sha256": "32BBC009D798039D1CEDFA64E681382378E71311883EBE3447DAD744453A6082"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BallComplementDominability.lean",
+      "bytes": 1692,
+      "sha256": "5EAC95CB57F71410ACD74DC6F4E150E933027E955FAA42C7547E383B760F7C3C"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BallComplementEmbeddings.lean",
+      "bytes": 5758,
+      "sha256": "0B4E7105464B95455EE7A7B549E7DC23178A15B53D9A8B9C37113AF769D73B82"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BallComplementOneChartApproximation.lean",
+      "bytes": 1806,
+      "sha256": "FFAF39D734728C8E607F145452B85A24FF08205CA3339564CDCF0B8F3497E81E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BallComplementSprays.lean",
+      "bytes": 2264,
+      "sha256": "997BA89ADD1DCA1559C9EFEA60217044831438194F4B7F75CFB887518E5731E1"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BallPointPush.lean",
+      "bytes": 5003,
+      "sha256": "923643A7602BAA1F8E79DF98E950ADECB340C013B4912AA4C3A35F75752F43C6"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BanachReconstruction.lean",
+      "bytes": 1023,
+      "sha256": "534015C454FE8E9C38140CC94EA1D45F5A2C9D4591C372442ECE2CE397B36589"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BanachStages.lean",
+      "bytes": 4920,
+      "sha256": "07A2FCA5C15A526561710D6913BE72713D20982DC097920F856552FD9E02A153"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BasinAvoidance.lean",
+      "bytes": 6814,
+      "sha256": "497D05863A0A8657E884CA4C9491FC6E825BB242FA69A174B2D29129C24A33A3"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BasinGlobalization.lean",
+      "bytes": 15718,
+      "sha256": "19B3750DB0FEF532DF8AB9BDBAB5234A0BAC088ADD2BB2979AF82677632779DD"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BasinToBasin.lean",
+      "bytes": 5498,
+      "sha256": "1C72CF7A658F8C069E38DD7DDB294D2590A65ACE8D4E6A9401EE2332DB7FC00D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/Bezout.lean",
+      "bytes": 5747,
+      "sha256": "9ABB6CB7F3E5C55F2E4EF4BC3A04E4D49C6A9C228B8A2EFA6D9E5C45FDB59B61"
+    },
+    {
+      "path": "lean/AutomaticContinuity/BoundedSequence.lean",
+      "bytes": 3962,
+      "sha256": "76B24D26F924318B22AD38021AEA6DE2A1F5E1BE778EA502911DF73026661FDD"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CenteredPolynomialFamily.lean",
+      "bytes": 5299,
+      "sha256": "488013D650832809030783816DFDFD52EDF270F9E4C7EF2524E8DC173F41A9F9"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CenteredPolynomialTubes.lean",
+      "bytes": 5150,
+      "sha256": "9038AB2F92D4B9E777A6802A131ADDBFAA78F195EC2C11AD4EF8560A088344CF"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CenteredSeparatorData.lean",
+      "bytes": 6668,
+      "sha256": "047D229120D118BE2C7E8A0D17E14D3E4A8ADBE18FCD59F7F695F19E37FE7E0E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/Characters.lean",
+      "bytes": 3563,
+      "sha256": "5CB77E1E0DFEEAC5959DD3DA299BE5160D8F5FD8FCAD46BF0E57E329BD52ECEA"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CircumscribedCoordinatePolygons.lean",
+      "bytes": 6663,
+      "sha256": "AEC6EB6BC629174A66DAE6418F3373B36B720905C5EBDFFBD3C945A6FDFCBF58"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ClosedSubspaceAnalyticContinuation.lean",
+      "bytes": 2241,
+      "sha256": "5C866EE29FF260964DA77FF7B0ACF704310FEFF7694F8719A847FD1A3909D40D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CoefficientCompleteness.lean",
+      "bytes": 5172,
+      "sha256": "B802E227DE6427C8E539FDEA33588A7125239E9556456CA2497B019FAA58FE9C"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CoefficientConvergence.lean",
+      "bytes": 3927,
+      "sha256": "CADFD65F86153CBCB3DA2A8A0E91EDEA18F4308EFA9F22390720E727D0C26B71"
+    },
+    {
+      "path": "lean/AutomaticContinuity/Coefficients.lean",
+      "bytes": 16359,
+      "sha256": "72E47BF16E2E484F0E1D4A50A2461130811E9006B055356FAD3DF68037BD3FCA"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CoefficientTopology.lean",
+      "bytes": 4669,
+      "sha256": "4A783F8554D97D1D584B803A65F65C86063BD83EF0DC4060CCF2C717E0DCA9D6"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CoherentReconstruction.lean",
+      "bytes": 4248,
+      "sha256": "5C4B97CCF7F56D95791E55A67911186F6F3BEDB9DB1214E21CB6191DC42CC6E4"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactBaseFlagFamily.lean",
+      "bytes": 6695,
+      "sha256": "1C9C98156D14200C5B7ABE1DB6826345FB7DB4EA54AF3D712BBC04604B08BC73"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactBaseFlagGeometry.lean",
+      "bytes": 8880,
+      "sha256": "CCED89810FC490B0E1841DCB39B35304C751D1D468D7DBFA67EC0E7DE43B14F8"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactBaseFlagInverse.lean",
+      "bytes": 4419,
+      "sha256": "8437E86EF3A69307156146C41FC15D2F93BA61E835DDA4747748A1FFF8DA37EE"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactBaseFlagMargin.lean",
+      "bytes": 5410,
+      "sha256": "5B383007827B628865D6A2EC53FA1642E0AEFE9757914A07019100FDB3998C75"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactConvexPolynomialConvexity.lean",
+      "bytes": 2384,
+      "sha256": "56DC58CF09E3EFC2B447E722F9E4AA5CD66EB659DC104FEC63B6D240D6D7199A"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactCutoffTubes.lean",
+      "bytes": 3060,
+      "sha256": "9E083E9A8A293DDBD856426384CFE8859949BA7576C7D883A68E4CECC23B89DB"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactFamilyHolomorphy.lean",
+      "bytes": 3548,
+      "sha256": "22068497CD2D1E91461417919FB64B35BE5C410305205731DFFD472FF651BAFE"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactFamilyInverseCoordinates.lean",
+      "bytes": 3736,
+      "sha256": "A432FA03CA10480D982EC563EB51F4760BB1F19B9D9BFEDCC790DD603E74F26B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactFlagSprayCover.lean",
+      "bytes": 3344,
+      "sha256": "E5BE61B83411DA537C49431E2673F6D22A5C49FBAE0E6A58E10B2F3579FB681D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactFlowTaylor.lean",
+      "bytes": 4786,
+      "sha256": "C5C2834729F3C43F16505E0CF9F5D42681ABFF6DBFD3C49497705D7D45DB7B9E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CompactSeparatedCapCutoff.lean",
+      "bytes": 3613,
+      "sha256": "33CF1EF7E22F4608D88F41EBDF04D4396AC7EDCB7EAA0B231470D5083A6B716B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ConcreteBallAvoidance.lean",
+      "bytes": 4920,
+      "sha256": "4704AA955DDEB465BE8DCBE24442DCC1C546C296D4E31C4476FDFFC37B4371F2"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ConditionalAssembly.lean",
+      "bytes": 1692,
+      "sha256": "B09135A957BAB5B1C9A3125DF8A1D07BE4D8052F9D8EFA3819606BF032C1829E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ContinuousCharacters.lean",
+      "bytes": 4484,
+      "sha256": "25A7CBE3586D20FEB4D3FA21BE4B3D3888ED61D7C063554931BEF3CAA803B643"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ContourExpansion.lean",
+      "bytes": 2078,
+      "sha256": "A3B8649C60B6B3A136AC4F11D477279429BB29825033DAB1ADA6FE39FF6381B2"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ContourIntegralOperators.lean",
+      "bytes": 8075,
+      "sha256": "824751676A754692D4C6BCF9F1EB1F1B22339ED00CEC398DBB672EA2175DA0D7"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ConvexCompactBuffer.lean",
+      "bytes": 1722,
+      "sha256": "E6FF416FA93CBBF6283A3925A3EC1FC98B1A5239AF73DFE5CECE0B6A73C4C435"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ConvexFlagApproximationPrinciple.lean",
+      "bytes": 2522,
+      "sha256": "C8821EEEA2EAF164BDA577AE954460346EA6ECBCB9C0A2433F4A1A2564894B8A"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ConvexNeighbourhoodFlagFamily.lean",
+      "bytes": 3280,
+      "sha256": "866AC6E263605289D3B71B5AD81FF13B051438C7055FC7DF6457B4C4CA0657AE"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ConvexPolynomialApproximation.lean",
+      "bytes": 2606,
+      "sha256": "6AB45282E640790720B47B3001ACE1F01B60922134A698A9A94D4B3492590E30"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ConvexProductPolynomialConvexity.lean",
+      "bytes": 3099,
+      "sha256": "1FC2B9E4E9710F43968E74B5D4E88B3DD91F3A724CDF1D9BE173C7811AE9D745"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CoordinateCutChart.lean",
+      "bytes": 2154,
+      "sha256": "F5646918094E486459177C8942FDCC3E68652DD9A812B7776C4502E8616E7AF9"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CoordinateCutConvexity.lean",
+      "bytes": 1548,
+      "sha256": "40C367E887A6DEEB13E441F98591AB032F4CF852B6CED836E0AC7E34574313A7"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CoordinateProductChart.lean",
+      "bytes": 3275,
+      "sha256": "5CC9E05537DE716CE11AAEEEAC6BEC2E6D8E80F77F45B816CFF9EB4FAC4F614D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CoordinateProductGeometry.lean",
+      "bytes": 1797,
+      "sha256": "A2A4C33FB38C10139C8CDC2E940F568BCD96F188E6AD0A1E0A7F31AD6C602D20"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CoordinateRectangleTransfer.lean",
+      "bytes": 3969,
+      "sha256": "B0C41D7217293685407FABDB8078CB2ECE155DF557F5B0DCFDCC91DBE357DE89"
+    },
+    {
+      "path": "lean/AutomaticContinuity/CutChainPolynomialConvexity.lean",
+      "bytes": 2981,
+      "sha256": "47FB7136B38C9A74D6C2576DEC1247C15FEAE9CC5659A32D3A5EEFBB7EDD3DC2"
+    },
+    {
+      "path": "lean/AutomaticContinuity/DenseInverseLimit.lean",
+      "bytes": 3907,
+      "sha256": "ABC7039FA1754FB4236546F4AAB68BD16DFA3DD98A9A5B9C8A92AB68E6744862"
+    },
+    {
+      "path": "lean/AutomaticContinuity/DirectionalCompleteFlows.lean",
+      "bytes": 13458,
+      "sha256": "5EAD7C8FF1DBB720D697D0BDC8B0E1EB408D345001974724B16002BD7A664FA9"
+    },
+    {
+      "path": "lean/AutomaticContinuity/DirectionalFactors.lean",
+      "bytes": 4707,
+      "sha256": "95BEFCF5AB4E546BFE686495F716A946BF44648FD17BF0F4680406D32429AB1B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/DirectionalFlowBounds.lean",
+      "bytes": 4989,
+      "sha256": "840DF02744593C18CD1781496DD612024E3CEFEAAE336488D13F6BF73DD17DF2"
+    },
+    {
+      "path": "lean/AutomaticContinuity/DirectionalFlowComposition.lean",
+      "bytes": 8851,
+      "sha256": "96CE24A5112FF0310513FCAC07864E468B2AFACB882407A2AF30BAD0AEC83C74"
+    },
+    {
+      "path": "lean/AutomaticContinuity/DirectionalFlowLocalApproximation.lean",
+      "bytes": 5810,
+      "sha256": "D9E26FA3890803FB00B6649CDF74BA52584FE5EEEDE4592613F09EC78589796E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/DiscreteTrajectoryStability.lean",
+      "bytes": 6842,
+      "sha256": "E34E967F5E9E074BB280B74CD20B321AB4F1EB34CD96081C12D98A3E6158507F"
+    },
+    {
+      "path": "lean/AutomaticContinuity/EntireStageFamily.lean",
+      "bytes": 7619,
+      "sha256": "2C658453BE39FDC8E44ACCA9FB7F51C5C6FFDCE0927173639182796163290301"
+    },
+    {
+      "path": "lean/AutomaticContinuity/EuclideanBallGeometry.lean",
+      "bytes": 3548,
+      "sha256": "38C8CC0A24DE09782C791991FA5FF03D692E25A29E9B5A53D240CF38D58887A7"
+    },
+    {
+      "path": "lean/AutomaticContinuity/EuclideanExteriorPaths.lean",
+      "bytes": 3766,
+      "sha256": "8A883170758F4FBF0C453933BDF69480468E6D7BC44C9A011A41DD7D7FDC0FEF"
+    },
+    {
+      "path": "lean/AutomaticContinuity/EuclideanPairRotations.lean",
+      "bytes": 5716,
+      "sha256": "10FFB3818E03BB3E40F571FED44FB5F68912A7013691A9A6249BCF70FB426BA9"
+    },
+    {
+      "path": "lean/AutomaticContinuity/EuclideanTrajectoryStability.lean",
+      "bytes": 5339,
+      "sha256": "31B044179FC938AAAD4A83839C1C505936A64839764861048237160C82288AAC"
+    },
+    {
+      "path": "lean/AutomaticContinuity/Evaluation.lean",
+      "bytes": 6569,
+      "sha256": "8E0D4266E42B24223D8B020A006539974EC9478991C3D7152788D51E4D9C3B89"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiberAutomorphismFamily.lean",
+      "bytes": 2308,
+      "sha256": "FAAE9590A9EE2D3EC086FAF82454537CDC4A19670EAFD6EA08BB2F8234F35904"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteCauchyBounds.lean",
+      "bytes": 7922,
+      "sha256": "607D0EB2A10A00BD099ADCF3EE126C3F2593F0D9D8288090A4D6DBC1E57A7455"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteCauchyExpansion.lean",
+      "bytes": 6798,
+      "sha256": "CED7421DC961AB209BB7B29E55EA82A339E2415EBE67286348B3D9B62A2D1B30"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteCauchyFubini.lean",
+      "bytes": 4955,
+      "sha256": "EDBB520D80684772DD304C7BA6DECBBDCABABC25EFE91377F3B92347EDA978B8"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteCauchyIntegral.lean",
+      "bytes": 9726,
+      "sha256": "D4B3D21FE0B1CF0D2D543397A1EDF9F4566C2B66B1C357C1262195DDCB61CD90"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteCauchyPrefix.lean",
+      "bytes": 2176,
+      "sha256": "4AC29E4C41286E6086F2745052FA653AF7D870D212590ECBB8DF6FE4F199BA21"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteCauchyRadius.lean",
+      "bytes": 3788,
+      "sha256": "120360ED7233C0CE0F5740330998ABFA78156885F53CA4109A3F0A86E3D04A69"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteCauchySeries.lean",
+      "bytes": 3004,
+      "sha256": "7D9BB85F9474043BB82CB5EF32892ECB0D741018000EEB14C469497DF3BBDAB0"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteCauchySummation.lean",
+      "bytes": 3908,
+      "sha256": "403A57FB733101604352419A1517811655A11A6B76C7C1BD19E00CFD422468F7"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteEmbedding.lean",
+      "bytes": 6411,
+      "sha256": "0B972994DEDA446C668B0158B45EF047B35DB2FE14D91858C0658F5FC8D9AB7E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteEmbeddingSupport.lean",
+      "bytes": 4478,
+      "sha256": "BA06DEB89A0E5039D7224233C20DC13BF01360D06220195AF8E8A704612EBE5E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteFlagCutReduction.lean",
+      "bytes": 4350,
+      "sha256": "9E43B18A10F8AEAC8FA18156E49DD4B03C324729F9F7FDE74FDD8B639B9BA625"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteFlowComposition.lean",
+      "bytes": 7239,
+      "sha256": "838AD19495C8CB84E577CE9DF7484587820B1CCC09CBEBF51C164DCA5043F70D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteFlowHolomorphy.lean",
+      "bytes": 8052,
+      "sha256": "E180A5D3899197E14724F5FEB60D007CC162268407DEDFCE45EEDFB23C7BE04A"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteFlowInverseEstimates.lean",
+      "bytes": 5243,
+      "sha256": "9A57AA0E949EDD741D8F7038585A2319AA718DC7C36532E1CB013A0869B3A5F5"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteFlowLocal.lean",
+      "bytes": 9725,
+      "sha256": "99FE045CB11749440CC7A1EEFF88FFBED8CBCE07E14A22747A4AE1B9CB9BED20"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteGeometry.lean",
+      "bytes": 3411,
+      "sha256": "F2FFA80ACA9AEB1A7DDE6385A0AB19782D86024A392DA15ED635CD866E6F8935"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteHalfspaceExhaustion.lean",
+      "bytes": 6462,
+      "sha256": "C911C3715ED2979D0D9DBA86A69E91B69A021045862BE2A56B8B8DCC0C0222BC"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteHolomorphicRegularity.lean",
+      "bytes": 4709,
+      "sha256": "207E47C3A6F5A38FF8CC27181D1DF9836EFC84CF2143D5D8A2F594D5356F719D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FiniteStages.lean",
+      "bytes": 8323,
+      "sha256": "B491ECE2CBBCD8472A8B16D2A0DDCDB1C4B7B7694C74DB3C00F964A9846611F0"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FixedBaseRadialBasin.lean",
+      "bytes": 6127,
+      "sha256": "D3AD58D37598F46CDDCD7190F5C2C2939DEA1B9B57237C2707539AECCD708AA1"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FixedExtendingSection.lean",
+      "bytes": 2604,
+      "sha256": "E8E34C669F288CF58AEB2AC828B80AE26EB18972B1626630F0700E885C386D76"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagAdditiveGluing.lean",
+      "bytes": 6155,
+      "sha256": "14A5A67EBC4680D92079ACBD675538BB93193F8E31C6B2894E0A2E3EF92EA6C8"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagAffineContraction.lean",
+      "bytes": 4546,
+      "sha256": "FA4F3B176C3F125737E19E98DBD26CDD3580EFC9229930C451AB26F1E8174E0D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagApproximationComposition.lean",
+      "bytes": 1994,
+      "sha256": "2F297EAD44CB0A18E942238E8C59D7F45AE1F82F9C7781535454C973A91264F8"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagApproximationOpenness.lean",
+      "bytes": 3949,
+      "sha256": "62ECBC820F7A361174EC64BB88A487F2E10FBBDD1EA4A19F551ED254B049FF6B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagApproximationPath.lean",
+      "bytes": 3577,
+      "sha256": "9D92CE6D56E235ADEA39BFC81AC7BC8C2C254B3F3CFFBD6D93BAC61BB96792FD"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagApproximationStability.lean",
+      "bytes": 2664,
+      "sha256": "1F60D9891132C0A24CE6BEB7543B065A99493C7DCAB88C805C9820024830690F"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagApproximationTransfer.lean",
+      "bytes": 6423,
+      "sha256": "9470DF6EEC75C2617AE8D3157241992ADAE03DC6CDCBC9FFB1344E97C3A2BEB0"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagBumpChart.lean",
+      "bytes": 6187,
+      "sha256": "BBD1B0011D672F93BF9D8BC6077F69B4B6A1CCA3D74BB546C0FAEBAB06B9FBE6"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagBumpHomotopy.lean",
+      "bytes": 6608,
+      "sha256": "CE84A489A4285DAEE9E61F003135A4FA84D34B5178B61614BB5D5E4E6B38B136"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagCenteredSeparator.lean",
+      "bytes": 4079,
+      "sha256": "44BF8B872F0AE9E2FBA97D2319289B27281BEBA509B9E0029E23E64C57B38891"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagCompactBasin.lean",
+      "bytes": 6126,
+      "sha256": "A9B0E3FC535F4B4909F75AA866EE6BDBD3384076172E88B276438F982665E9B6"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagCompactGraph.lean",
+      "bytes": 5159,
+      "sha256": "3B6F62CC59342DE5B34C9A2C7187F46128930FB971A47045EE1DE8859BAE864B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagConvexGlobalization.lean",
+      "bytes": 3425,
+      "sha256": "D1C168915A2B08ABA354CC99FE16CA007E9F1576B827ED7C98C9067C70CA584D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagConvexHomotopy.lean",
+      "bytes": 5644,
+      "sha256": "C3D8747920080563824919E3221BAA31D82F529F534FDC9DC0B441BC03E84CF3"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagCoordinateEquivalence.lean",
+      "bytes": 4475,
+      "sha256": "B516ED84DA40B1DB64DEECF5259CF3E767903EED19899ECB3C51678CA8393FC6"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagDominatingFamily.lean",
+      "bytes": 5708,
+      "sha256": "96F454139434F780E809BEC235D4BD69DFA51C622F9B7D891E869066A79297C4"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagFixedTubePush.lean",
+      "bytes": 3658,
+      "sha256": "6E62367BE79C2B4398D633E1BCD66A40F597A0AFDBAE2A3A604EE6A0072219E0"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagGraphCutoff.lean",
+      "bytes": 5290,
+      "sha256": "E1B280DD22992CA33766CB035B7EAA25745EA718919D08CCB44806EFB7185B87"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagHalfCutTrivialCases.lean",
+      "bytes": 1681,
+      "sha256": "1AEAA3BDF0F902DA5661EE2F20BFF7A8C404A3BFCFA500AC72E190F466AE7173"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagHomotopyPatching.lean",
+      "bytes": 5996,
+      "sha256": "320BDE1512477062874979E3F72AEA3554C577D9CFCBAC96E330BBBEB1B7B07C"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagInitialRadialState.lean",
+      "bytes": 2253,
+      "sha256": "9FD65806EF7347220E72D851157389D384974DBFC0D40E3DE41D8165C370F131"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagLocalExtension.lean",
+      "bytes": 9687,
+      "sha256": "17E1B21996E4C5F703B838599479DE5E6C16DBF5856597F2C0346DC09C331286"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagLocalSprays.lean",
+      "bytes": 3802,
+      "sha256": "F00CF2C560B6FBD1ECCF2DCB2621E0AFA48E833792A0D81A71DB0F55095971FE"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagObstaclePush.lean",
+      "bytes": 2280,
+      "sha256": "7365DACB5A4C79493D1E54CF89DF83FB51F023471D4241ECFB8D71BBBD9B69AD"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagPolynomialExpulsion.lean",
+      "bytes": 4486,
+      "sha256": "0E23A736BF6AD4829D2471D3E2A748BBF15A67EA3AB1083F9C841E2E5E80CEF0"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagPolynomialNeighbourhood.lean",
+      "bytes": 2962,
+      "sha256": "8B62AD601F9C0FD013950936547E94ECF8AD995E733C0EBFC2C93A4B859CDE72"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagPolynomialParameterApproximation.lean",
+      "bytes": 1728,
+      "sha256": "7901968EC51AD23EC53C0DE202105EB5324ADEEA1E8DDDAEBB49A0342FA0A4F2"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagPolynomialPush.lean",
+      "bytes": 7116,
+      "sha256": "80EAA4173C3C35A06E88BE60535AF464F2F14410AF4A1104883238EBDF509FE8"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagPolynomialSeparation.lean",
+      "bytes": 10362,
+      "sha256": "AFC442A7C485C85736DCDCE8416774094E46D8639B042E041021EB0A7894A759"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagRectangleSplitting.lean",
+      "bytes": 2619,
+      "sha256": "9A470B42E56F6D49264C3EF7724FE0D34B8AF6E94D9F3A3B5750738FB83A797D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/Flags.lean",
+      "bytes": 5930,
+      "sha256": "93309545E716533A017D68E33674D7E67D2430FA0DB49B572E697C6AEAA41871"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagScalingBuffer.lean",
+      "bytes": 3667,
+      "sha256": "DF1F1A38A1FB3686B72F289A7133E26AF8A78A60AB7573C2365B85E6F922BB81"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagSectionApproximation.lean",
+      "bytes": 5521,
+      "sha256": "2EB0CED5975CDAD30765879BCB519934E375E5C084B06C81C674BCC72C3D853D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagSectionPatching.lean",
+      "bytes": 5144,
+      "sha256": "9C278753EF671656A7F1432C25EC38A9ED4630791D20388070189335F98A3B9E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagStrongMarginFamily.lean",
+      "bytes": 3738,
+      "sha256": "1F65D2DC0B137FC19443F13FE45F763824B1B7AFD8C1AB38DC91FA3F9A930037"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagTotalSpace.lean",
+      "bytes": 15548,
+      "sha256": "62F6082FAD98116AE7596C77396D5FAB27B39815F48DAC0AE9720EFEC206AC0B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/FlagUnitExtension.lean",
+      "bytes": 4040,
+      "sha256": "C4302CAA5F0D299CA820CBB62A52ECC06C9D60C9DD9545C08323B8CA2038F4C5"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HalfCutAssembly.lean",
+      "bytes": 3164,
+      "sha256": "487E1BD811649AAB3B48A5E75A9126F6640CC813CD9B68F515B610128C78219C"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HenonTrapping.lean",
+      "bytes": 11876,
+      "sha256": "FF12EE6E4948C8C11028378E5643B34AC53237D24BD250C10B2933A5EF498531"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HolomorphicFlagContraction.lean",
+      "bytes": 7149,
+      "sha256": "3852D724570B749520B240B1AA60320889748F8D37F7D0161F2C4864C89FED5E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HolomorphicGraphConvexity.lean",
+      "bytes": 3746,
+      "sha256": "5CEE2479B58E2D9DE216CAF203E5607C061E53EC76BDE4A1F8F0AC8A54FC2E87"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HolomorphicGraphUnion.lean",
+      "bytes": 8212,
+      "sha256": "69B3044C3847A186A43C974429991A5B4C84BD595809A9DBD199E62D8A39362B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HolomorphicInverseLimit.lean",
+      "bytes": 5722,
+      "sha256": "1592A56A4EBD11C35F5B5E00C11594EBF2924A7D39D49CCF9BAA6A4251C83495"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HolomorphicQuadraticRemainder.lean",
+      "bytes": 2771,
+      "sha256": "22D5E29A423ED633C9775CC2F21CA457455E9831947123FD55FDE704F8808D4E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HomogeneousCoefficientBasis.lean",
+      "bytes": 2423,
+      "sha256": "6E8765A75F2C6B3ECC48168D769C6DBDAA10F2184303313A0657EBF2324E83A4"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HomogeneousCoefficientSelection.lean",
+      "bytes": 5126,
+      "sha256": "20A19E11C92E8DCE7A75BBE16737784F60981773FCB309D0A2586F6AD5AFB658"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HomogeneousFieldCoefficientSelection.lean",
+      "bytes": 5665,
+      "sha256": "61585940591264212D09B176019EAF6A3AC9A5DCC264CD7DD05EF7E3C42897BA"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HomogeneousFieldDecomposition.lean",
+      "bytes": 7430,
+      "sha256": "0D081000F3090B13BBC3F8D76C6FAE142EC16CAA92B32132D5DE6531A28AD463"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HomogeneousFieldEvaluation.lean",
+      "bytes": 2433,
+      "sha256": "48CF66713341A5DEA52FEBA96EB1F35D1736490EA5A8ECA42ECAFAAD12E1E7DA"
+    },
+    {
+      "path": "lean/AutomaticContinuity/HomogeneousPowerBasis.lean",
+      "bytes": 3604,
+      "sha256": "94731852257588A7D78088CD48A371D330A71B4FAA3CF1C20CA7604669FD145B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/KoenigsEstimates.lean",
+      "bytes": 7098,
+      "sha256": "725118F8837709901582E3255B6DD72D1DE54774B73F08156813D3FA6DD921D9"
+    },
+    {
+      "path": "lean/AutomaticContinuity/LinearParameterAttraction.lean",
+      "bytes": 1963,
+      "sha256": "725AF328D1D526F032A651BEB6632D00A8292647764CF76912740CFA9D98367F"
+    },
+    {
+      "path": "lean/AutomaticContinuity/LocalBiholomorphicLimit.lean",
+      "bytes": 4109,
+      "sha256": "F102D8D512C3D2D2BB8F353FE312D053470A21C81C65E8B657DC7E11F8CF61BD"
+    },
+    {
+      "path": "lean/AutomaticContinuity/LocalCauchyExpansion.lean",
+      "bytes": 9565,
+      "sha256": "F19F209EFE5B4FC8E460E5ECE00D153107E96E13A72DF40A548DB2912063704C"
+    },
+    {
+      "path": "lean/AutomaticContinuity/LocalEntireSpray.lean",
+      "bytes": 5937,
+      "sha256": "77C45EFC30CA7ECC2895C85B9FC74C6466491D7A305B76628E625099AC37D478"
+    },
+    {
+      "path": "lean/AutomaticContinuity/LocalFlagInterpolation.lean",
+      "bytes": 6811,
+      "sha256": "D2697F648FE1F6BD5CFE1C47DFAD931B1B4DC5214B02E087597C9A851DC28B60"
+    },
+    {
+      "path": "lean/AutomaticContinuity/LocalLinearization.lean",
+      "bytes": 2629,
+      "sha256": "6FF50F659511A906BAE03F8A9C977C1A4C6F78501E617DBBAE2FDD9CFA0ADD05"
+    },
+    {
+      "path": "lean/AutomaticContinuity/LocallyMultiplicativelyConvex.lean",
+      "bytes": 2018,
+      "sha256": "70D3112C03054909358F0D829664952A8CD3676E0A535CD9ABA7BF82A174A69B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/LocalPointInterpolation.lean",
+      "bytes": 3492,
+      "sha256": "B89B5A02B6E8AC454592BB502A51957D111AE02EB972A4009E337108BC82D675"
+    },
+    {
+      "path": "lean/AutomaticContinuity/LocalPolydiscApproximation.lean",
+      "bytes": 6929,
+      "sha256": "8F13DB245EE9EC217D750F6557EBA241F41E6CFB48FD8D4DAFA22D5867FD14DB"
+    },
+    {
+      "path": "lean/AutomaticContinuity/NonautonomousBiholomorphism.lean",
+      "bytes": 5160,
+      "sha256": "D24D755EDDB0B76F8993A34566A63DE161FDC47F81D90760E037DD472B7F86C4"
+    },
+    {
+      "path": "lean/AutomaticContinuity/NonautonomousEntryDomains.lean",
+      "bytes": 6336,
+      "sha256": "8035903F8902DD7EB8FF2B66DAF5FF2282A31C0B39BCAEB4C94574B358C94135"
+    },
+    {
+      "path": "lean/AutomaticContinuity/NonautonomousForwardLimit.lean",
+      "bytes": 4133,
+      "sha256": "658CB1F4AEDFE1782302F6A4937F1038507D4BE32B6751624AA3328DE716122A"
+    },
+    {
+      "path": "lean/AutomaticContinuity/NonautonomousInverseLimit.lean",
+      "bytes": 5228,
+      "sha256": "720A4A534AFA607ECECB411955CA73468BC294B31AA38DD5DEDD8308809CFB0F"
+    },
+    {
+      "path": "lean/AutomaticContinuity/NonautonomousInverseTails.lean",
+      "bytes": 6667,
+      "sha256": "87AC9A9417CD8B8856CA09724682842706F3B567457E58DE31A2A92170917C10"
+    },
+    {
+      "path": "lean/AutomaticContinuity/NormalizedHolomorphicLimit.lean",
+      "bytes": 7525,
+      "sha256": "FE73F6E57A87E3E09290C2EA3FC32EC7062E0099A297E9ECDC5F92E9A37224F0"
+    },
+    {
+      "path": "lean/AutomaticContinuity/NormalizedParameterChart.lean",
+      "bytes": 7669,
+      "sha256": "609D6F3AEF2D6C804C884C6D6F48B99A6A61B6C7D9B8CC5C7D935396787AF745"
+    },
+    {
+      "path": "lean/AutomaticContinuity/OneChartApproximation.lean",
+      "bytes": 4913,
+      "sha256": "C2ABAEA0820C47BC987096C9B599DB125339E48A0060F8A1A9B2B2C953C37059"
+    },
+    {
+      "path": "lean/AutomaticContinuity/OneDimensionalFlagApproximation.lean",
+      "bytes": 4244,
+      "sha256": "5C6BD077DECBF7E6D37FD4C3F4F93990E6DFC458C944D42E0E38DD7ADB86BA9E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/OneVariableCauchy.lean",
+      "bytes": 5910,
+      "sha256": "BE0DF0E3FAB80AB34598C8D075FA486715947B37D703211355AA0B2D7DCC02ED"
+    },
+    {
+      "path": "lean/AutomaticContinuity/OvershearEulerBounds.lean",
+      "bytes": 3396,
+      "sha256": "DC12CFF968CC6426BAA084C96B59AE49DEAB34E573E856AF7C79342C568150E5"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PairLinearSeparation.lean",
+      "bytes": 2985,
+      "sha256": "5E87F704BAA1D81F8CB979CB4F2A7453D494B61D0E843685728D41EC536CA305"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ParameterBasin.lean",
+      "bytes": 4860,
+      "sha256": "2FB7EDDB649E94C66805DED2547B6F3EB80B2657021999CF14F26DD12A64CA91"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ParameterFibreComposition.lean",
+      "bytes": 3362,
+      "sha256": "60E8BED6C6943CAA231F0CBBD0F4B1F2B33883AB55795D17A1365CC2DBE27EEF"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ParameterKoenigsBasin.lean",
+      "bytes": 5132,
+      "sha256": "8BAA5B2441AA08A3466D6E0466F6065AB9FF9D987DA8722C92A18AEA3B8CE36A"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ParameterOvershears.lean",
+      "bytes": 5123,
+      "sha256": "7FC661C37240F616A44988D3E7C3336B5C046EE4099B4DBDF296B8D287493965"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PlanarEscapeRays.lean",
+      "bytes": 4471,
+      "sha256": "F1EEE02350B61463E2722301C9276F654E11B81B684B81C376BCC41627ADB82D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PlanarRotatedEscapeRays.lean",
+      "bytes": 2195,
+      "sha256": "E138FAFBF398FEABD2AF1C1907A2AFAD8854420CE4980F015F0FF11A5C159406"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolygonCauchyIntegral.lean",
+      "bytes": 5084,
+      "sha256": "3D857673C30A0A20B3116DA9B511BAF47273310948A3FD2FCEFC715795E24B17"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolygonCauchyReproduction.lean",
+      "bytes": 8137,
+      "sha256": "43F3D11F5D66E7534E34FAED53D5A9FFAA43B9186B00AE11AEFB25248720B3C6"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialAlgebraicUnion.lean",
+      "bytes": 1453,
+      "sha256": "2D5AF5C9A0EC927AE09D140B721F7E8B9D6ADE17D1BA58EAF89A5A0FD2D2714E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialBezoutCutoff.lean",
+      "bytes": 6047,
+      "sha256": "96BF1E790F07A831F72E49720C8747E1051ABB3358DB68CAC6D3EF54542C9691"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialConvexity.lean",
+      "bytes": 4151,
+      "sha256": "91A8A94C4F97C6222C9B992DE701AA0C60B498B9C3C938D65FF2D6AD76C9A65C"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialConvexNeighbourhood.lean",
+      "bytes": 2473,
+      "sha256": "489FA56E62913DCF16C4CEE754F3DAB96FE62CC681F03A823A10110284051812"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialConvexUnion.lean",
+      "bytes": 4308,
+      "sha256": "122F6822B4B00017C363B21FCB3C896451C9F0E60AFD560219DCD9DB36ADDEC9"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialCutoff.lean",
+      "bytes": 6630,
+      "sha256": "31A5D244A11030EC2184B3921DC339B9BEDB93411D4AB01A566672EBFD2E3224"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialExteriorCutoff.lean",
+      "bytes": 5436,
+      "sha256": "3F4398CE54C286A2F8F972B590D6CB4E104A78751267E1D59EAD57BFDC93F485"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialFamilyEvaluation.lean",
+      "bytes": 3945,
+      "sha256": "44E3AB064038851796D047DF777E832609AFED2AFBE7A0DBDA4C5A6AFD94A787"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialFamilyRegularity.lean",
+      "bytes": 6894,
+      "sha256": "993DAF309B5B9B084F055790B9D24DDE1501FB69F5E6105AF4D29E24FDD4FCE0"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialFieldArrays.lean",
+      "bytes": 5139,
+      "sha256": "8DF1AB12904F28922A222F677EE482ED8178E16BB3419D2C75C160EC9A49C1E3"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialFieldDecomposition.lean",
+      "bytes": 4003,
+      "sha256": "7980BF9BCF433F984841F4EF3FA7E6094F807EDA25CDBBBD528A877EE2E5C68F"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialFieldFamily.lean",
+      "bytes": 4751,
+      "sha256": "2A8BF9C74D315F6DD5CB9B29F9C162F4D9A138832497370A66A849F307AFD6AE"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialFieldRealization.lean",
+      "bytes": 12615,
+      "sha256": "8996A1F48F206764908EC6B0E0A3789323C2797DCA29599FD0289DC58D596347"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialFunctionAlgebra.lean",
+      "bytes": 6887,
+      "sha256": "4824D97720AB2E0F687E206344908FA9560E5BCC0454709B0B24C7FA46C55DE2"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialFunctionCutoff.lean",
+      "bytes": 5216,
+      "sha256": "9EF828A2519211C194921D6E6A26FB381DF7CAC9979B9386FBC833F507382635"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialFunctionResolvent.lean",
+      "bytes": 6623,
+      "sha256": "85F07161588EA5917DF0256D918D7D4D8232F69A3193E4302B5DAF3814AA56CE"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialPolygonTransform.lean",
+      "bytes": 3046,
+      "sha256": "1ABDB9F299E234C92BB2DAA860BDFD6AB5BDCA8F049788AAFD90F5B2EF66A1B2"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialProjectionSpectrum.lean",
+      "bytes": 4511,
+      "sha256": "2E00C5E97FF52B442F376CBE8006E050483CF1A24700680ECB0C0DF2E140D9AA"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialResolventContinuation.lean",
+      "bytes": 2950,
+      "sha256": "757AC3A521F449722AD60CCCA6C25B9F391ED2663F92ABE29824FA647B0679E9"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialRestrictionMap.lean",
+      "bytes": 3468,
+      "sha256": "C63C2D29CDA604730762A2D63CC483B356EDA238F3CCECCE877E710458DD8D0B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/PolynomialShears.lean",
+      "bytes": 4920,
+      "sha256": "6A93717B7EBAA4EC9800A26D61CB70B7FB86FBC00DF877ABA60D423750A75C14"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ProductHalfcutOpenness.lean",
+      "bytes": 4329,
+      "sha256": "01D434A742ABA5895249869574E8779624F6DAF3DFD0350C480C590BEA427689"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ProofObligations.lean",
+      "bytes": 3804,
+      "sha256": "8256350966334C3B570CF4A3ED494D945199797627E3934E84DB5FBD0B92256D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/QuarterScaleBasin.lean",
+      "bytes": 6363,
+      "sha256": "DCA0189A7C9CC4EE29A4D4E07B716B6DC96758543A0345AB581611EDDCF5B58C"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialAdaptiveIteration.lean",
+      "bytes": 5569,
+      "sha256": "19B740C47384CEF2EA3B31E1820ABB87508759D65F7B375F3C667BFBA57EF48A"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialCompactFamily.lean",
+      "bytes": 4410,
+      "sha256": "6B3F61B5BDD847CD58AC95173372A913B0CF5CD952A60E0CDCE318543140EBD6"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialCompactPush.lean",
+      "bytes": 13537,
+      "sha256": "CC52CB9100DA475DAB7ECA748863DF942A76423A30DB9B0AB4DFD7011B64EE36"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialCutoffField.lean",
+      "bytes": 4605,
+      "sha256": "64E65C5B3D5AA3F44A84865E1D2C1AF033B55F0DAB7C76BEB68C1B431A95824F"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialCutoffTubes.lean",
+      "bytes": 4696,
+      "sha256": "60A74110ABC6F2FE37DC06B9F0DB4CEED6E12F6A1B310D845F697410DCF69294"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialIterationBudgets.lean",
+      "bytes": 4865,
+      "sha256": "830CB810684B4F9DCEFEDA3D3B0D67270E3FB730E83FC0DA37858B14F20A5E60"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialMeshApproximation.lean",
+      "bytes": 8224,
+      "sha256": "2C8DD1B2632B8B6622F2833545134A38B264CFA29F766A09C171D0AE6F0EAB40"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialPolynomialExpulsion.lean",
+      "bytes": 3626,
+      "sha256": "00C24579AE8837AA3533C6CD01C992CD2A8CA4E2E593639D4D299CBA5B3CE68C"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialPolynomialFamily.lean",
+      "bytes": 4730,
+      "sha256": "1805648D2B360FB18416AC326DA645B5B4D68805450921A12D11103BE2BAE129"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialPolynomialField.lean",
+      "bytes": 4688,
+      "sha256": "D4E24C65BE5AC51796BE26A471F0F374EC3C148032472BB12097EA66F6F995DB"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialPolynomialPush.lean",
+      "bytes": 2469,
+      "sha256": "93F5F7A18552495A4CDAE2BBDB624BEABD6A50F921FB802F498342A47A521D5E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialPolynomialRealization.lean",
+      "bytes": 5403,
+      "sha256": "6AAA7F81C136208410BEAA73760EBE7E5529DA101006D0ACD873BC3E4F748244"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialPolynomialSeed.lean",
+      "bytes": 4240,
+      "sha256": "BD074BC771D2D3DAD968F68EB1BF65EADD4238A577DDA6B8CF0E830CF6CA18CC"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialPushIteration.lean",
+      "bytes": 13733,
+      "sha256": "B3657F0AE789BACB1F7D8ACA4ECE6D3A325C1859796CEE7B712C08FDBEFD15A8"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RadialSeparatorPropagation.lean",
+      "bytes": 8066,
+      "sha256": "6A894FC2D011681AEB389339C5C24A270ED03BBB3D030563980E27C3CD684422"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleAdditiveSplitting.lean",
+      "bytes": 5202,
+      "sha256": "B9EE12BDCE3FC007AEE07FE6E1ADECBC5DE434FA7BE5818BBA44E915E0987A44"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleCauchyAlgebra.lean",
+      "bytes": 4794,
+      "sha256": "9417942C8CA2F5E7D1211D378D3F93E1BC509CEFDC28F86FD29374E21FE3A8ED"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleCauchyDomains.lean",
+      "bytes": 5184,
+      "sha256": "3F606B32FB3DAF1FDA7A441B18995BB458EC4A683E52B0677D3C80AE3268E805"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleCauchyExterior.lean",
+      "bytes": 1201,
+      "sha256": "2731F2CA4D477B2C3327D37E2B625CC2F7BE45BB6C0690FC32CABC451B1C40BC"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleCauchyIntegral.lean",
+      "bytes": 2184,
+      "sha256": "D35044D06EB99D327DC1D07E2CD48D51742A4917406E485CD14A0B32FB7991C7"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleCauchyKernel.lean",
+      "bytes": 5937,
+      "sha256": "50935EC6AC78412D38EC1E14836EA7FA94E6A864B03EB65520E2655D07F348AD"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleCauchyLinearity.lean",
+      "bytes": 4976,
+      "sha256": "039AD08D46C90796B4011E3BC3E41363EC770F3DF28B91A0F6369E413D03FF15"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleCauchyOperators.lean",
+      "bytes": 6804,
+      "sha256": "DE2226F6E331051E21BCEACB80CD9C7CAF5E0E9B446D6B5DC6DD3D7A48273FC1"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleCauchyReproduction.lean",
+      "bytes": 3377,
+      "sha256": "B80B453FDFA19D9D542DCDC1C265A29113D663A1D1E47D2EFDD1E6E34F32F99D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectanglePairSplitting.lean",
+      "bytes": 2084,
+      "sha256": "90816D9CD1C992C7EF1EF4CF6204852E5BFAF0D2E798E6FCDFB8EED11969A8ED"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RectangleSeparatedSplitting.lean",
+      "bytes": 7280,
+      "sha256": "BCD163AAE7376B909AA1018FADCDABFC356B12BCBD98CBC5CE4220D8B141A4EB"
+    },
+    {
+      "path": "lean/AutomaticContinuity/RemainingInputs.lean",
+      "bytes": 3546,
+      "sha256": "F4D2A333A89E46572C0D8F10D687AA778BB8D12BBFADFEE94F693BB28CB72FE6"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SchwarzDerivativeBounds.lean",
+      "bytes": 2968,
+      "sha256": "081E24D00A940DA4C574A84BAA08E826157E0BFE02A22B95380E13D72EAFDE85"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SeparatedCapPolynomialCutoff.lean",
+      "bytes": 7688,
+      "sha256": "023FA4FC814BB623AD1ED9A9967ADD26335AEEDF4849181A8F21A91FF9E9B8F8"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SeparatedCapPolynomialGluing.lean",
+      "bytes": 6704,
+      "sha256": "6A6446DB569505026D5ED6F92DAD1D4A547C78493C02A2CEACBB522F0A508F76"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SeparatedConvexParameterApproximation.lean",
+      "bytes": 3552,
+      "sha256": "E885092B8EEBF626CAD199D5D271F198533C618901A1D4ED0CA35B894AD9CF18"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SeveralVariableUniformLimit.lean",
+      "bytes": 5908,
+      "sha256": "19B4F134B1F42E963D76C38D58F969542DE98C6D834AADCB31E3DEB558EB7B40"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SmallQuadraticRemainder.lean",
+      "bytes": 1259,
+      "sha256": "75949D0254CD0F8D5ECA0D1216EF000D2E003EBB1C3CEEB61037A687BB948859"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SmallScaleBasin.lean",
+      "bytes": 7275,
+      "sha256": "3B11237F6E655282A28CF9C7D13D9CD77624E2D20D4E7799506AD235DEA32C6B"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SmallScaleHenonGeometry.lean",
+      "bytes": 2475,
+      "sha256": "9A9D1B8B413CF0F99004B85B5C520797135F236D1E48E913B3FBDA2A3BF8D870"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SmallScaleHenonTrapping.lean",
+      "bytes": 7952,
+      "sha256": "8631FE47634053DE73975273E260BDE340A232BE0E06D136C8BE03B2948E4DB1"
+    },
+    {
+      "path": "lean/AutomaticContinuity/SmallScaleKoenigsEstimates.lean",
+      "bytes": 6675,
+      "sha256": "C0763A935F13FFEFAFE466CC82AE13FB24EF670DC24B2BCA50D217FD41DE73BE"
+    },
+    {
+      "path": "lean/AutomaticContinuity/StageStep.lean",
+      "bytes": 10726,
+      "sha256": "EE55482A566FCD0809910DF937F6F6E15DF92E9B5C1F1F29B47B59490F9C3E77"
+    },
+    {
+      "path": "lean/AutomaticContinuity/Statement.lean",
+      "bytes": 2420,
+      "sha256": "FF6BF9029A3CCC3E4E6CF261CCD645ACC8B96D813BE55962A7EA0081AD530285"
+    },
+    {
+      "path": "lean/AutomaticContinuity/Substitution.lean",
+      "bytes": 8585,
+      "sha256": "FCE496EF6DB5BC16F5A7E5194F9894D7779A69F1C3157C98A71F53A75D6C49AF"
+    },
+    {
+      "path": "lean/AutomaticContinuity/TaylorRepresentation.lean",
+      "bytes": 6169,
+      "sha256": "2CABDBE8F405DFDE5E2479D1D026C9FCEA5C08F158A2AF342AEAA90C17E1BB4F"
+    },
+    {
+      "path": "lean/AutomaticContinuity/TaylorStageRepresentation.lean",
+      "bytes": 1736,
+      "sha256": "6F8848B5E46537ACC52F2845DB91710EFE55B56C5CA9AC4DC6453FE733598116"
+    },
+    {
+      "path": "lean/AutomaticContinuity/TheoremA.lean",
+      "bytes": 1519,
+      "sha256": "409150E35CE2FC07B314C156D89DB91F189AB9CC8DEFA8269C26E43EE74A9F32"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ThinRectangleCaps.lean",
+      "bytes": 5224,
+      "sha256": "292621642C1E591CC3153A41FFED9C1BD0EECBDD74031741409D930F9A39FB8E"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ThinRectangleGeometry.lean",
+      "bytes": 5595,
+      "sha256": "7410271CC6AD9D15E6B9960177697705AD7FD6DACA7FE743AFB255A209AE0C3A"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ThinRectangleOpenCaps.lean",
+      "bytes": 3598,
+      "sha256": "72971EEBEC7AB4930748F49CD2568CABC67DB8C67880B3D5460AB1E4D34D8014"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ThinRectangleProduct.lean",
+      "bytes": 2913,
+      "sha256": "761B17F1A8267BDE52B62F48901A64BC130A26508F590948B0CF0837DEFA2081"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ThinRectangleTransferDomains.lean",
+      "bytes": 6593,
+      "sha256": "655A53F6AD268C8F8D0AB0985A0F386E27D283029CC54382F2591F07FA934D7D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/ThreeStageConstruction.lean",
+      "bytes": 7461,
+      "sha256": "5A53B8FE436E459D60AC07E30F08F64E36D2051ECE64E1564DD66409904E2440"
+    },
+    {
+      "path": "lean/AutomaticContinuity/TranslatedPolynomialConvexity.lean",
+      "bytes": 1219,
+      "sha256": "C76C24BE5873960B79B203DF776F38E2093102F6E9F96BF548DED44140995D6A"
+    },
+    {
+      "path": "lean/AutomaticContinuity/UniformParameterBasin.lean",
+      "bytes": 3843,
+      "sha256": "2E39BD7AF37BC613178B66A81777D810E4940A12B7C9FE5A7A755C7E0165FEAD"
+    },
+    {
+      "path": "lean/AutomaticContinuity/UniformParameterKoenigs.lean",
+      "bytes": 14337,
+      "sha256": "2E1BD444750B3D938CD2B48EAB21540B54EFE2E338833CF1B94F48037F658148"
+    },
+    {
+      "path": "lean/AutomaticContinuity/UnitizationReduction.lean",
+      "bytes": 1442,
+      "sha256": "DEBC293562572D8D0F822054B7992D411DEBC4FD672CE11E71521D042D1B653D"
+    },
+    {
+      "path": "lean/AutomaticContinuity/UnitizationTopology.lean",
+      "bytes": 7344,
+      "sha256": "2BA4D90C721F725A9636A563A10DBEA1C625893F5B6E4DDADA2BA6DBC317CDAA"
+    },
+    {
+      "path": "lean/AutomaticContinuity.lean",
+      "bytes": 12915,
+      "sha256": "0CC249AC20B36C365227DB4CF963848732E72749755E2540203E15BF2AC7CE92"
+    },
+    {
+      "path": "lean/CompletionAudit.lean",
+      "bytes": 1441,
+      "sha256": "AE3AC5C46D87062A4BB3AAF5F819A4745D8E201D93AD4FCF8D7A9A382CD70C60"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "bytes": 3674,
+      "sha256": "B5F5B6C6F6CA4702A314C753098ED8FCF294D4C0928B9B9D5DC58C45307119CF"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "bytes": 305,
+      "sha256": "7F00B6467BEA60DEF89BA1FE98E182EE4FE86AEE25181CE2170A8DACC205E474"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 29,
+      "sha256": "8190E75A201741065FE508B28955DD64DD72D090BABE5F70CE6848879D68AE88"
+    },
+    {
+      "path": "lean/README.md",
+      "bytes": 2337,
+      "sha256": "30B80CD2B0BDE60BE944F56D4882A65D51B9661419A9F55FBB204E085B7D6510"
+    },
+    {
+      "path": "lean/SOURCE_MANIFEST.json",
+      "bytes": 41263,
+      "sha256": "5760229EBEB3B5C9D5D109D35116DC302C0404C7CFD5631901C9B20A41F07044"
+    },
+    {
+      "path": "paper/index.html",
+      "bytes": 3670,
+      "sha256": "1E6FA28B7C7E83361D14B667CC70D40D0C0EB2561FC5ACB5A1E9474F890F4A1C"
+    },
+    {
+      "path": "paper/manuscript.pdf",
+      "bytes": 120564,
+      "sha256": "92D20DF8D5973D741F5B0AC5327AB0944E74FBB4C1DDEA12324C18D8FA42A3C2"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 25,
+      "sha256": "1CBDBC6504BE7ABE1267D01D7F565BFCFE5851BA3F6A3754D1D61C8F8A2C6AA3"
+    },
+    {
+      "path": "sources/Audit/index.html",
+      "bytes": 51652,
+      "sha256": "1D333257C41497ACB794D337758AFC68BDD4B8553B34BB75A5D59E27D8C28C61"
+    },
+    {
+      "path": "sources/AutomaticContinuity/AdaptiveInverseControl/index.html",
+      "bytes": 14432,
+      "sha256": "BE0FAEC2B25A71970403028C9894BF5BACB6A1956EEBEDE9D969EB86608786E3"
+    },
+    {
+      "path": "sources/AutomaticContinuity/AdaptiveUniformLimit/index.html",
+      "bytes": 14628,
+      "sha256": "2D368D480AFD226DF4F7F23375C1011E143E30A2ACCA20DC011C23D82BDB8577"
+    },
+    {
+      "path": "sources/AutomaticContinuity/AnalyticBridge/index.html",
+      "bytes": 11028,
+      "sha256": "17D57DFF7C016533A2C1186D8EB4A07A7B67159761F6074327E096811B096340"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ArbitraryFinitePrefix/index.html",
+      "bytes": 23545,
+      "sha256": "88A5194B315DD53D602FD04C07453F326A1C6A1C784A5AD240E017DF18477037"
+    },
+    {
+      "path": "sources/AutomaticContinuity/Arens/index.html",
+      "bytes": 9326,
+      "sha256": "D1865D67B635B0030A3D35C08C79CA24524B0DC1FD2C87836C1567563539C6EF"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ArensAssembly/index.html",
+      "bytes": 8365,
+      "sha256": "809C30291A9441B41C5CF55FAF62D9A790366B4D76AEFBFA9A6FBBEAE33F6ECF"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ArensBanach/index.html",
+      "bytes": 15930,
+      "sha256": "442B543A8C925173FED4FBB4C197E405B91BA5D431947DE47583D85CFB1B65EE"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ArensInverseLimit/index.html",
+      "bytes": 13350,
+      "sha256": "A1C72D582537261D880382B4B5D93ED0FA8C508544ECD39E8B8AF0FE4D27EEAC"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BallComplementDominability/index.html",
+      "bytes": 8036,
+      "sha256": "89BD8A42511E37334C2558F7C513DD5745428B350A31400903C88755870E6AFD"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BallComplementEmbeddings/index.html",
+      "bytes": 19944,
+      "sha256": "868BD1103A4C5257CF4D83981646C5BF7995AAC815C7D276465BD01F7D5E9EA8"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BallComplementOneChartApproximation/index.html",
+      "bytes": 7986,
+      "sha256": "7D53829C8F6994E58AE6050C1E032062E9CD1E9CF12596AC32BA32FFA0671908"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BallComplementSprays/index.html",
+      "bytes": 9529,
+      "sha256": "0440244B0D32CBA8056C376BDF7248B1852EF884C3C07977BBACF62101AE09B5"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BallPointPush/index.html",
+      "bytes": 17977,
+      "sha256": "4EFEF33CEF5B45EC2AB8CA8A8A469F619DAA81C42E0D36AEA49B0AB30758141F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BanachReconstruction/index.html",
+      "bytes": 5892,
+      "sha256": "EAF984ED18EDD973E64EFC39C25444FEB178B649FDF8C73E1BD709C50407D7C4"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BanachStages/index.html",
+      "bytes": 20059,
+      "sha256": "79953DEC68DD5757D55BA25DEA647FD1B6F3546132CB89EE0AA94FB448288AAB"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BasinAvoidance/index.html",
+      "bytes": 25519,
+      "sha256": "DAAD766A2051069822C4D5320C3AD6DF9C3A8B0E1FD6B410E130CC2E17D9469A"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BasinGlobalization/index.html",
+      "bytes": 58024,
+      "sha256": "E15D6186551FDBC545CD27472866508AA2805AF81120C809586824DEFC67FE4A"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BasinToBasin/index.html",
+      "bytes": 22673,
+      "sha256": "C93BEF46736C6CA4DCB8557CCECAA89AAF2BF0FF3292EA360A8BA27A548D3B65"
+    },
+    {
+      "path": "sources/AutomaticContinuity/Bezout/index.html",
+      "bytes": 22958,
+      "sha256": "757BFC0AF8CED2E54E0FBBB0C1259E78FD6D6254522A02EC0A28B92C15CEBDC4"
+    },
+    {
+      "path": "sources/AutomaticContinuity/BoundedSequence/index.html",
+      "bytes": 16459,
+      "sha256": "F69E7B4964C122BDF0A710F68427377966773D582346D231AFE9436E016BB9E9"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CenteredPolynomialFamily/index.html",
+      "bytes": 20585,
+      "sha256": "17FF11ED04336D20DAEBE8EA1C9FD18418A738BC05368FB980D00C05681C9BF3"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CenteredPolynomialTubes/index.html",
+      "bytes": 20298,
+      "sha256": "E0A1E49FE71A2352D9DD97A423DBCD02C722744BAC4CECBDD9F3AEB7E82C7FBD"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CenteredSeparatorData/index.html",
+      "bytes": 24997,
+      "sha256": "BDB0BCF5BBE94A018723FFC9ABD1B4626EFE2A7F2DEB3B0E7AE3C868DC55FC82"
+    },
+    {
+      "path": "sources/AutomaticContinuity/Characters/index.html",
+      "bytes": 16991,
+      "sha256": "81C48DDD5AD6D970F687999EA74603BBFCA8A2687A27B793E946676EA5B79962"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CircumscribedCoordinatePolygons/index.html",
+      "bytes": 24262,
+      "sha256": "FDB945C0E0DA084B5B4D038D8B7DB913F8D832BD61F648595E2CA93C9454937F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ClosedSubspaceAnalyticContinuation/index.html",
+      "bytes": 10256,
+      "sha256": "EDFE660DAB82A8936930F47F9169554B37DE63AB39B17E01C8340C8913331A10"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CoefficientCompleteness/index.html",
+      "bytes": 21018,
+      "sha256": "5AC13618076C67BBDA9D442995A368797AEB720D3BAFF117BA33EE0BF5087368"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CoefficientConvergence/index.html",
+      "bytes": 14999,
+      "sha256": "CC4ED177088C9CCC39A7E50CB2ED9E8A968723544DE2ACC30A4C4EA99C86831E"
+    },
+    {
+      "path": "sources/AutomaticContinuity/Coefficients/index.html",
+      "bytes": 59889,
+      "sha256": "BB50B28345A8BF1FDBA4BB56D49F3FEA252786A1E311B59EA303AC446AE4FF22"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CoefficientTopology/index.html",
+      "bytes": 18894,
+      "sha256": "956A7134653A1125DA608929FF10165D10379C04C5F6F8977678080BD52008E9"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CoherentReconstruction/index.html",
+      "bytes": 16999,
+      "sha256": "8C0D77E024E2F846FA92FA66E12B157CCC908F393E53EA03C7790E7ADDAE07DB"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactBaseFlagFamily/index.html",
+      "bytes": 23740,
+      "sha256": "95F66B2DD8D43D3DDBB89E6DBF0AC47A48A3AC98AC6E889DA89F7294C7F9C352"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactBaseFlagGeometry/index.html",
+      "bytes": 31111,
+      "sha256": "15EAC535FD4C90B6E7F166E4F81BA51CA9AB0DF4314C430014F601914ABCB3CE"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactBaseFlagInverse/index.html",
+      "bytes": 17580,
+      "sha256": "C634AD14DFD747F8C5FE8D47FD9CAAFA2D7D31852C5D1978E47634FC50CA5F92"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactBaseFlagMargin/index.html",
+      "bytes": 19444,
+      "sha256": "005597B32D924FDC882D6006734A01E2D65DCDFBF26B1C849990C900890A324E"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactConvexPolynomialConvexity/index.html",
+      "bytes": 10397,
+      "sha256": "7088ACA091F31A12B8F82C5C767D9E092E506BD83D2F4ED5A47F5F74D46FBF60"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactCutoffTubes/index.html",
+      "bytes": 11865,
+      "sha256": "B0554F8B8F0EE6E4F4D56913D5EDF2113E12C6FB5667412D386F389E1DDAA775"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactFamilyHolomorphy/index.html",
+      "bytes": 13800,
+      "sha256": "E776A64C4D504164529AD01F24686C126BF97D6FA4C0F9B063FB6040FC0AC7EE"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactFamilyInverseCoordinates/index.html",
+      "bytes": 14541,
+      "sha256": "674A7DCBA4C274BE7FB967E0F4EF47114C5013508A097444F1419D23B6136A29"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactFlagSprayCover/index.html",
+      "bytes": 13491,
+      "sha256": "175A4C1015279A8E90404C0E132AE0AD4CEBA099DC307D846E49041B1FD040B5"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactFlowTaylor/index.html",
+      "bytes": 17125,
+      "sha256": "EA2C72D68368BE7BA1328E0363C3892081D45508970B6682DDAFAF22447843B7"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CompactSeparatedCapCutoff/index.html",
+      "bytes": 13694,
+      "sha256": "B9FE9113ADBB5703BF982BE45428E116575DE751C99951DDF11450F1CDCAB172"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ConcreteBallAvoidance/index.html",
+      "bytes": 17355,
+      "sha256": "E05E5E7679E369021D6E2DF852F8C12B5B565A27C798FEE756D3CFA22B2498CF"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ConditionalAssembly/index.html",
+      "bytes": 8199,
+      "sha256": "F682D3330F7A5A241B6876ABFA29BA166D20A9EBF1D223862CFB46A37B02D552"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ContinuousCharacters/index.html",
+      "bytes": 16772,
+      "sha256": "D42D38F21645E4EDCCB41527FB0E8F7BE9E800543CC2683533AEA66415AD2F97"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ContourExpansion/index.html",
+      "bytes": 8794,
+      "sha256": "430E2D22203211A864341B7F6B6D6550CCEE1E4525A9F5A04B097F41C65E4398"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ContourIntegralOperators/index.html",
+      "bytes": 27120,
+      "sha256": "9A7287C3C9066FEE7B00E77EB955BEE9AD4D61D8C5DD6CF284FE70A708F2F2A7"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ConvexCompactBuffer/index.html",
+      "bytes": 7820,
+      "sha256": "9E1655307378A0AB8F0CBEC99F7AC705D4A5CC7DF7A10B7D3D7D8FF68B8B5735"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ConvexFlagApproximationPrinciple/index.html",
+      "bytes": 10138,
+      "sha256": "6E8F774A4BB77EDEF48027EBF3F4FB91FCFAABA34E69C5EDD54456AB55926596"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ConvexNeighbourhoodFlagFamily/index.html",
+      "bytes": 12320,
+      "sha256": "02181CA785326E09F1129AD21073DA511B05397B21375A6A931D388F9B51E8C8"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ConvexPolynomialApproximation/index.html",
+      "bytes": 10607,
+      "sha256": "8D066B7C9BEDFE3D39F91823B0B7FEE20E2DDDFC95CD09BEB21786470CD2A546"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ConvexProductPolynomialConvexity/index.html",
+      "bytes": 13902,
+      "sha256": "143B4BCA154990149B0C8A5A26EA9227EA35D25C181031C098F8433520839E23"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CoordinateCutChart/index.html",
+      "bytes": 10738,
+      "sha256": "D603772498840276E0BFFB50007EFB935F94A628E1C5FBFB2BB1F24D5BE08E14"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CoordinateCutConvexity/index.html",
+      "bytes": 8697,
+      "sha256": "B4A093445E4F81B7ADC8542020F0CB7869AC2EDD77F34961B760BF4E09B006B4"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CoordinateProductChart/index.html",
+      "bytes": 13529,
+      "sha256": "C822800D41C129F0EDAACAB1F9716D7F79E31F609269073138059295315E68E7"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CoordinateProductGeometry/index.html",
+      "bytes": 8855,
+      "sha256": "1E5E659BDF60383B6D5ABD62C935C2D45E7D45863D1C304F46B1A4183233886C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CoordinateRectangleTransfer/index.html",
+      "bytes": 14365,
+      "sha256": "A5B4C5221CE205A3D75539044446C9132C1E33452A8327C5C61B222C532FB644"
+    },
+    {
+      "path": "sources/AutomaticContinuity/CutChainPolynomialConvexity/index.html",
+      "bytes": 12616,
+      "sha256": "428ECEE5BD60F51F3F0C81C3B135C47FD17E238DF21692641D8CFC290A5EAAF6"
+    },
+    {
+      "path": "sources/AutomaticContinuity/DenseInverseLimit/index.html",
+      "bytes": 16525,
+      "sha256": "639081DC687A0FA73B036A9F0E7DF83E00D8465ABAF2D3E4EFA8A4E0B2CF6DA8"
+    },
+    {
+      "path": "sources/AutomaticContinuity/DirectionalCompleteFlows/index.html",
+      "bytes": 47629,
+      "sha256": "B1C5896B1EE722A2E0B442B384CCAB268C6B4E10CCA75AB301FF84B4B8A9C9C4"
+    },
+    {
+      "path": "sources/AutomaticContinuity/DirectionalFactors/index.html",
+      "bytes": 18676,
+      "sha256": "CF07D3D7C3611E723B12D4DA6CE66A9FCC3939CFA63BF3E6944E6A7838BF4B7D"
+    },
+    {
+      "path": "sources/AutomaticContinuity/DirectionalFlowBounds/index.html",
+      "bytes": 17721,
+      "sha256": "9D2210E1F1DD52AFAF4F46E675BE201B6C820452546A10C4D8538DC0735BC677"
+    },
+    {
+      "path": "sources/AutomaticContinuity/DirectionalFlowComposition/index.html",
+      "bytes": 30973,
+      "sha256": "63FB0019F1010C6F62967CE74A6FAFFE3028A2BD17CC29AE1652832816C6AD25"
+    },
+    {
+      "path": "sources/AutomaticContinuity/DirectionalFlowLocalApproximation/index.html",
+      "bytes": 20300,
+      "sha256": "7025A76B9EB818A46891E19C04CC15F2B1A7A42F722F141B2A43E8B3C88D194A"
+    },
+    {
+      "path": "sources/AutomaticContinuity/DiscreteTrajectoryStability/index.html",
+      "bytes": 24761,
+      "sha256": "F19CBCBE111727860A4B708991FB88EC9400C2CFA8D3DFE0E01459E4B1CE7991"
+    },
+    {
+      "path": "sources/AutomaticContinuity/EntireStageFamily/index.html",
+      "bytes": 26922,
+      "sha256": "B31F944F7A46EFC65CAA062BAA577CAD84651D7223EAAEE2704553670897CBD2"
+    },
+    {
+      "path": "sources/AutomaticContinuity/EuclideanBallGeometry/index.html",
+      "bytes": 14807,
+      "sha256": "B4E8CD8839EC41D775824B4EE773E1DA4BCCC1C373E9A8F474F1D3662E9E22DB"
+    },
+    {
+      "path": "sources/AutomaticContinuity/EuclideanExteriorPaths/index.html",
+      "bytes": 14853,
+      "sha256": "B719D864354CB23B3614A92AE998B61EF36862531471FB882CB934AE0465B878"
+    },
+    {
+      "path": "sources/AutomaticContinuity/EuclideanPairRotations/index.html",
+      "bytes": 21371,
+      "sha256": "06C217BEA3A512A7727D29C84631CF272F3095B8504788490B15FC241B5F9F70"
+    },
+    {
+      "path": "sources/AutomaticContinuity/EuclideanTrajectoryStability/index.html",
+      "bytes": 18964,
+      "sha256": "A2D963E39978CA896389A15EFE242AAB1369B244CCDB9CA3EB6030E0B080F20E"
+    },
+    {
+      "path": "sources/AutomaticContinuity/Evaluation/index.html",
+      "bytes": 25689,
+      "sha256": "F136D1EF5BDE78D82CFF6E3D6FABD97073786225F2919DE555D0A6DE8AC43C02"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiberAutomorphismFamily/index.html",
+      "bytes": 9788,
+      "sha256": "1168E883E902FF4732AE68039B83660F78D97313B8E5D1F5083FF6105D184BB9"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteCauchyBounds/index.html",
+      "bytes": 27532,
+      "sha256": "68D4D981AA1866266F0C12927402D2A193DA343F658A663ABFFAAE55120964F1"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteCauchyExpansion/index.html",
+      "bytes": 23267,
+      "sha256": "A5C80FA075236FF9D685C077A1A4128F54FE226542AC7AF5E0D8CE5F8CBD3133"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteCauchyFubini/index.html",
+      "bytes": 19563,
+      "sha256": "F875C6A5AD24704698F751522DD04C12EAF1C94463C0E366F54926EC30ECA7CE"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteCauchyIntegral/index.html",
+      "bytes": 34371,
+      "sha256": "E05522344FA2FF50B971AD47DF05144C0A04E926B30B8CDDAFBF2EA4F77C5880"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteCauchyPrefix/index.html",
+      "bytes": 9751,
+      "sha256": "14D17B7578761CBDEDBD445B3249C9BED6766C6C7F5978854BAF3BC64C454951"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteCauchyRadius/index.html",
+      "bytes": 14507,
+      "sha256": "3162BDE7195BC5A5DEC1CECCDDB725CD3E03A735CA1E0F2C839D6BA1E19B1CBF"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteCauchySeries/index.html",
+      "bytes": 12212,
+      "sha256": "408672647235233328039CB3BDBAAB359085E31CA2A421B93102BFB80CD3DB1F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteCauchySummation/index.html",
+      "bytes": 14391,
+      "sha256": "07599C5FD76D63C46AD57D04CF2AB4BAB7CD8EAFA02F8BB5F59BD59496B07EE5"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteEmbedding/index.html",
+      "bytes": 21803,
+      "sha256": "B3AF7E8BDC1C93680DB6C5DB0E7CCCD3257AFAC2E068041D36E1CFDCA5235106"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteEmbeddingSupport/index.html",
+      "bytes": 16905,
+      "sha256": "01B1BB1B4351469C87A18E8268345CDED47AB5993992C1ED70558D7BD2616867"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteFlagCutReduction/index.html",
+      "bytes": 16355,
+      "sha256": "7128A498853253AB9B6EF3761AF5AE6B63B2FDACBEFD5288A125BC664A9C59F8"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteFlowComposition/index.html",
+      "bytes": 26201,
+      "sha256": "238758ADCC46241FD139387CAA7127666F243678701F0B356A6EBF54CB7F817C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteFlowHolomorphy/index.html",
+      "bytes": 27817,
+      "sha256": "7570B2FEB750CB6E24D9A033AB1A5FC94BDDE977B9A6DC9D52CA60535A83C155"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteFlowInverseEstimates/index.html",
+      "bytes": 19645,
+      "sha256": "34C40A8F53C0E7DCCEB6A5F0F9841230DC7F5FC0ACD485AE331B182B51233BC5"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteFlowLocal/index.html",
+      "bytes": 32850,
+      "sha256": "E42CD77BFCF61B2D3B274FFC8E77717B06232598CC15CBA51914A0E2BE22A1AF"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteGeometry/index.html",
+      "bytes": 14145,
+      "sha256": "3C4DEE1A05DB5D0F8C65F1DF5AE463C516B4F333EAED182A4A32447EDA4EB5FB"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteHalfspaceExhaustion/index.html",
+      "bytes": 26186,
+      "sha256": "E168633F13E5DB0FA0B92128918D578120F3A3FFA3B6D31E5988CCAD88F2D30C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteHolomorphicRegularity/index.html",
+      "bytes": 18217,
+      "sha256": "92926D8643588B3A5E213C6B9E9CB2DC8B6D0C67948C1FB4FBAF6DB413A2EAAA"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FiniteStages/index.html",
+      "bytes": 30141,
+      "sha256": "F21813976324F155748DA19F0CF15B16B73CD124EB76213F1586EF236E08473F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FixedBaseRadialBasin/index.html",
+      "bytes": 19955,
+      "sha256": "84022C20207830341091DD1663AC0E27E35F5658A19928ABF2100E68CF194284"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FixedExtendingSection/index.html",
+      "bytes": 10264,
+      "sha256": "0B5A5FCA3BB3AB84843F80D47748514263BCB71B493D223FFDCE10BE76BD5711"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagAdditiveGluing/index.html",
+      "bytes": 22008,
+      "sha256": "6BFD6D193BB5DBFBD318F682961EBD3D67A7052467AEC2966F0572D370668410"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagAffineContraction/index.html",
+      "bytes": 17813,
+      "sha256": "ACAD9FBE2A44B073F2FEB774F35EC89103E88427A403BEEFEB1ED3F7997FD3E4"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagApproximationComposition/index.html",
+      "bytes": 8449,
+      "sha256": "1E5C820EB73D19F272D68E4F94D5972896A83775BCE419EF8B5DD91D6F8CEA27"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagApproximationOpenness/index.html",
+      "bytes": 14524,
+      "sha256": "22429685E5E366005191E502B65A8CF3B59C15EA026758853FECBA9D8D6F5AAA"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagApproximationPath/index.html",
+      "bytes": 13424,
+      "sha256": "B8488271C2DF6BDEA7934C41E553D16B8A5F451C48E9AF630E356D197094ADFC"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagApproximationStability/index.html",
+      "bytes": 10659,
+      "sha256": "3F52FB0358842681B3E795BF2D6D69C03E6BE426A1776CF48F67140CF96D6806"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagApproximationTransfer/index.html",
+      "bytes": 21778,
+      "sha256": "05C9EC1948B27394537F15BF9D32BC2B8ECF38C6C7E5846A1FC7E0522BADBC8B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagBumpChart/index.html",
+      "bytes": 23607,
+      "sha256": "E63D6A6F2405336FD6E8D4859F7EEE0989D9192F21FAF450292A24BF2D5C9F07"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagBumpHomotopy/index.html",
+      "bytes": 22970,
+      "sha256": "244085F460C1BBE8EB6A45F50123D22F9847F733AA6BD711185A6519D02AC297"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagCenteredSeparator/index.html",
+      "bytes": 14977,
+      "sha256": "2B488045D543987FD8A70E7FB3096B528E778DD205C8D4085880F77E63E668B3"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagCompactBasin/index.html",
+      "bytes": 21953,
+      "sha256": "D1250AEF37837C10C10BF7B7CEDF168B7EF5E4E3778497014C8C9FAF56F89A18"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagCompactGraph/index.html",
+      "bytes": 19669,
+      "sha256": "616A7592039528E062BD99D7CE29416E331972430861C642F84836C759BC64FB"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagConvexGlobalization/index.html",
+      "bytes": 13062,
+      "sha256": "F8047E911F9A4446E998319B921C1C9D9620EBAA3C2B82A76722792C20F836DC"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagConvexHomotopy/index.html",
+      "bytes": 20724,
+      "sha256": "6FBE7A97BBF0ECA45505EA6488805A1129FC6DCBE9A5C8FB0B1B9E5398B4D132"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagCoordinateEquivalence/index.html",
+      "bytes": 17012,
+      "sha256": "5CAA2186226BFAEDAE3EFADE1CA372C6CB007949F0BCC31D3D8F86348AFA1C39"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagDominatingFamily/index.html",
+      "bytes": 20814,
+      "sha256": "500C22ED9EB782F70E568C2E9DCAD4F0E3F9E865AEF4C9A4DD6664EF1A2B099C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagFixedTubePush/index.html",
+      "bytes": 13289,
+      "sha256": "3E1DF20E70EC4A8E0248B77ED2014DE47B7FCF456538C4F9E52D0FB27800460B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagGraphCutoff/index.html",
+      "bytes": 20269,
+      "sha256": "DB0685F842CB2AC83439767B41CD1B609DBFE019F7AB53F3B1FDA46D874E74D1"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagHalfCutTrivialCases/index.html",
+      "bytes": 8837,
+      "sha256": "4E85567AD636AF0C54894361CF9AA0DC5DDB220D884C61498409EFD5FD0A844E"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagHomotopyPatching/index.html",
+      "bytes": 21190,
+      "sha256": "088C9598A967D9F1B461949FE1E9C0181F4E0BE64B5C802F506D004A39D47941"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagInitialRadialState/index.html",
+      "bytes": 9717,
+      "sha256": "0E06E05F062ED55FE1689F96ED35A2B07CE64BC4505C14239F5BC3443CC64669"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagLocalExtension/index.html",
+      "bytes": 32736,
+      "sha256": "997DA9657589B3A13886B6D999E9FFE9545959792DC50805E79D8F1E4A441206"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagLocalSprays/index.html",
+      "bytes": 15570,
+      "sha256": "FDF395FAABC4EE7B499FDE15AD283C45BB592E4306EA1C516631C53972C568A9"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagObstaclePush/index.html",
+      "bytes": 9426,
+      "sha256": "21D9FD13F733C7ED59AEABAC12D3657243EC8088B015E096DFC696DFC1B55953"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagPolynomialExpulsion/index.html",
+      "bytes": 15386,
+      "sha256": "D19221D840734190899232F129BC7D9E61A7930FA34D905039806D2E8A89807B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagPolynomialNeighbourhood/index.html",
+      "bytes": 11379,
+      "sha256": "92F7F522CD2489891B374ADB93AE7B8E4C10ADA8E0A13C9E18E56B84FBF13B3A"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagPolynomialParameterApproximation/index.html",
+      "bytes": 7800,
+      "sha256": "243E7FBDDF64459869106E35E536E27FEA37E1B2EB4A3E102AE96D25F3EF099C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagPolynomialPush/index.html",
+      "bytes": 24387,
+      "sha256": "DA33AC69E48265EC50C268743074FEC6548ED981206C9C775F815F2AF30386C0"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagPolynomialSeparation/index.html",
+      "bytes": 36440,
+      "sha256": "F4B0B6545CBED4819B353554917B24A817D5614F16884C4EE24B90CB813D9B9C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagRectangleSplitting/index.html",
+      "bytes": 10707,
+      "sha256": "F4B9A550250DD43DFE56F69D78D2F6564C9ADA7EFE6B5AF96D59D8D81A66A2EC"
+    },
+    {
+      "path": "sources/AutomaticContinuity/Flags/index.html",
+      "bytes": 23936,
+      "sha256": "571EA7218CB45B4088897138103003679A274399E0046B9D084377935DF6096E"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagScalingBuffer/index.html",
+      "bytes": 14428,
+      "sha256": "B944073BF70E350A6DFC1222CD049F9629732CDCE3B05311ADDC5E2705DE2588"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagSectionApproximation/index.html",
+      "bytes": 20307,
+      "sha256": "D7CC08764DD8FA9069E65A8D83ADE2E40B73779B1CACF0EFEB06AFD896629235"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagSectionPatching/index.html",
+      "bytes": 18608,
+      "sha256": "E3C6A127F5FEF9E3A7118D6E49E95BDE3A894999E1B487DFF315E4D34ABA3D3A"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagStrongMarginFamily/index.html",
+      "bytes": 14304,
+      "sha256": "22C9B7E2346D3F64F92E73000CE3AB893515F8AA03363B2B1BED379978AB1ADB"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagTotalSpace/index.html",
+      "bytes": 55796,
+      "sha256": "53D65AA414B23BAE7264E80AB8A3B4B2198C9F9A638549E46B0433663FA4073C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/FlagUnitExtension/index.html",
+      "bytes": 15210,
+      "sha256": "AFAF0A466FFEF0418125689539CFAE28F2DCEA5A7D1FCC774697B12FA41DF714"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HalfCutAssembly/index.html",
+      "bytes": 12542,
+      "sha256": "F3E2588BD648CABA685FD9EEFB720D502BA04EC1181092D3D294616B16FB00BF"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HenonTrapping/index.html",
+      "bytes": 40585,
+      "sha256": "1EB608201A68270ECAC2B1F3E98EEBDA3433DFF7EFF8F39E81587097B28321FE"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HolomorphicFlagContraction/index.html",
+      "bytes": 24624,
+      "sha256": "BBB0F046C2408CC792C7F7C4D7020D60FE29D25FE09173DB7973C435DA31F3C7"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HolomorphicGraphConvexity/index.html",
+      "bytes": 14212,
+      "sha256": "E2884E98743D099058A6F067F578BC1775D605DAEF61B4B2E3A4C6D22BC4A50B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HolomorphicGraphUnion/index.html",
+      "bytes": 29207,
+      "sha256": "1B45F7FC823651AC276A32CDB14180FFCE2F8D5D4C12B25ECE9E88B90E208A3C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HolomorphicInverseLimit/index.html",
+      "bytes": 21048,
+      "sha256": "20598F270B998975FBB2C04E179F9D5285EE0EFEDFCE46B31A69E9534BFF57A6"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HolomorphicQuadraticRemainder/index.html",
+      "bytes": 11814,
+      "sha256": "58CE9119BADE2886C33BEE8716FA7B3C96A743C93979C2A01E818C9550106855"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HomogeneousCoefficientBasis/index.html",
+      "bytes": 11028,
+      "sha256": "67A03A5E352D6B8468BCA1CC669FCF659DF647321DC9E33F986B06FD87F9F71C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HomogeneousCoefficientSelection/index.html",
+      "bytes": 19601,
+      "sha256": "9F9C0E7766CB8947D3794EF7646FB020D489FF367C8103B7634624D9E5D33B7F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HomogeneousFieldCoefficientSelection/index.html",
+      "bytes": 21117,
+      "sha256": "392FF74A50E0D217365545B1A96B51ED645CFFED9C9D2BA325EE02141ECA2F9B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HomogeneousFieldDecomposition/index.html",
+      "bytes": 26189,
+      "sha256": "C29A629A3C3758C5E48B76F060D6ACBC042AB47B2DB6904A467FF3728C849FDC"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HomogeneousFieldEvaluation/index.html",
+      "bytes": 10425,
+      "sha256": "1979B147AF6B5C295E76C0AAEF87FFFD04984623C19A8C4B298B4844786AF047"
+    },
+    {
+      "path": "sources/AutomaticContinuity/HomogeneousPowerBasis/index.html",
+      "bytes": 15690,
+      "sha256": "393CB3C1BBC106A62C6A77082D1DD477DBFC9702CB7DA4321465B0029DD25EE9"
+    },
+    {
+      "path": "sources/AutomaticContinuity/index.html",
+      "bytes": 41992,
+      "sha256": "77AC125A721A5B828A11304B701F29466D67F65CEA98C1311CE0B24BFD7CBF8B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/KoenigsEstimates/index.html",
+      "bytes": 25692,
+      "sha256": "A46245D818E550BAE56B7E2C5EBD25701D89AF529BC3EF0F1951B573E842ABA4"
+    },
+    {
+      "path": "sources/AutomaticContinuity/LinearParameterAttraction/index.html",
+      "bytes": 9757,
+      "sha256": "A77C614A452C6AA6313602C87B844E709D560C5ED5AC9D0577B0D9704E9D220D"
+    },
+    {
+      "path": "sources/AutomaticContinuity/LocalBiholomorphicLimit/index.html",
+      "bytes": 15488,
+      "sha256": "530068FF71BC61DEA3F164D5A286C72F007DA0EC957DC9324212A5FE0C6635F9"
+    },
+    {
+      "path": "sources/AutomaticContinuity/LocalCauchyExpansion/index.html",
+      "bytes": 30275,
+      "sha256": "35F92B3C1E83818D5DBAF5D66BBF5E0444BD6E25F62D3E44D0060E55FB81FF2D"
+    },
+    {
+      "path": "sources/AutomaticContinuity/LocalEntireSpray/index.html",
+      "bytes": 21333,
+      "sha256": "7776E37FD59E1137F2F0FC9BBE9E1A4C91489F27E647CFF3929998496B022456"
+    },
+    {
+      "path": "sources/AutomaticContinuity/LocalFlagInterpolation/index.html",
+      "bytes": 24532,
+      "sha256": "B9737C375869170B6342C0F9C4D7E4863B885347F1A75ECD8C3ACAFDBE33AED9"
+    },
+    {
+      "path": "sources/AutomaticContinuity/LocalLinearization/index.html",
+      "bytes": 10698,
+      "sha256": "D49CCFB52101974D503B2717677733961409D1336CC5C35C50A0498F48CAB581"
+    },
+    {
+      "path": "sources/AutomaticContinuity/LocallyMultiplicativelyConvex/index.html",
+      "bytes": 9501,
+      "sha256": "837B6A2760A4D6ACAF98161E3688172B7D44DC4AFF0F5013224ACC423884A59B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/LocalPointInterpolation/index.html",
+      "bytes": 13544,
+      "sha256": "AAFC5DA8820BA3028D8D176CADE432CABF6837DEF51CB46B944491F4436A798F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/LocalPolydiscApproximation/index.html",
+      "bytes": 22746,
+      "sha256": "946A8EA5495EE6969613FC64B6B41F3656F26F53946F47A4BA1E5275206B62CE"
+    },
+    {
+      "path": "sources/AutomaticContinuity/NonautonomousBiholomorphism/index.html",
+      "bytes": 17756,
+      "sha256": "B136ED7A13CF17DFEB9814EE734B039E9D2B3621F7169CF0932B710223F565B5"
+    },
+    {
+      "path": "sources/AutomaticContinuity/NonautonomousEntryDomains/index.html",
+      "bytes": 24146,
+      "sha256": "4052F4839FA31E0B53000F7D27FEA4DC454A1018C2E6D3CCFE78701E2C6FAB5A"
+    },
+    {
+      "path": "sources/AutomaticContinuity/NonautonomousForwardLimit/index.html",
+      "bytes": 15453,
+      "sha256": "EE9786292AC65FA351D1A86CA74735F63A3FCEE11D124B0357AD660F5AFE9A7D"
+    },
+    {
+      "path": "sources/AutomaticContinuity/NonautonomousInverseLimit/index.html",
+      "bytes": 19394,
+      "sha256": "3B3010F06CDFCD52D71F9C87FB1B8DF6101F1B07F43E904D18A5568FF747ECA6"
+    },
+    {
+      "path": "sources/AutomaticContinuity/NonautonomousInverseTails/index.html",
+      "bytes": 22747,
+      "sha256": "3CB5A41E306022318465382B60BE0D3CD7987BC84C09DA1C463A3B84C13C3C04"
+    },
+    {
+      "path": "sources/AutomaticContinuity/NormalizedHolomorphicLimit/index.html",
+      "bytes": 24789,
+      "sha256": "CEF6777B30B4E0CC939F70923B6DF5122CE51327887D2DE034D88A61C1C8BBB2"
+    },
+    {
+      "path": "sources/AutomaticContinuity/NormalizedParameterChart/index.html",
+      "bytes": 26221,
+      "sha256": "5C17DF18A1231CEDF9D151E072DCB780E953A810153E00ED9654C848BDDA7065"
+    },
+    {
+      "path": "sources/AutomaticContinuity/OneChartApproximation/index.html",
+      "bytes": 17047,
+      "sha256": "E117A375105BB28C6C6D9B17369E55139925C6C077FA8EFF074C7A51F2A8CD10"
+    },
+    {
+      "path": "sources/AutomaticContinuity/OneDimensionalFlagApproximation/index.html",
+      "bytes": 15473,
+      "sha256": "B559256592AE944B53063242E6A55786FBB798903BE1D7A8967FF40181B1BBA4"
+    },
+    {
+      "path": "sources/AutomaticContinuity/OneVariableCauchy/index.html",
+      "bytes": 22321,
+      "sha256": "04CD303BAC78AFCFBCDE1E8C0C89EB7B2A2318DA14293DA7E2B191C923651946"
+    },
+    {
+      "path": "sources/AutomaticContinuity/OvershearEulerBounds/index.html",
+      "bytes": 13924,
+      "sha256": "602280472C6E15CD22248E21F9AF1896DE2C6CED835A9C7D4918A3FED88814A4"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PairLinearSeparation/index.html",
+      "bytes": 12383,
+      "sha256": "A54453364E5A865086E36E73C2BD4DA0E64FC0A2D1F21AF5F260CE326C9B02A8"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ParameterBasin/index.html",
+      "bytes": 19594,
+      "sha256": "9F02B1E87364C5DFB507DDE447FD6DB3ADF13C4894AA3C6BE3E51AF0E9FDA200"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ParameterFibreComposition/index.html",
+      "bytes": 14321,
+      "sha256": "C74BABF12A0016A298D067F299C785CE167DC4C2DD8849721C622BB44F542661"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ParameterKoenigsBasin/index.html",
+      "bytes": 18411,
+      "sha256": "1DE8CF46D71C002C8F608C0C86269AA7A73ABE9299D2810D7B92F2E69FB086FA"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ParameterOvershears/index.html",
+      "bytes": 20192,
+      "sha256": "53313E8D42116C2F0DF313B691C74D368F0C50E57D6B27CCA1F4E80CAF6C3924"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PlanarEscapeRays/index.html",
+      "bytes": 17611,
+      "sha256": "C968931B89D78DB27E99F49DF86085F52D6C92B5AFDB5CA479293C29C524F482"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PlanarRotatedEscapeRays/index.html",
+      "bytes": 10172,
+      "sha256": "8FDA07958D251709B5B4C5B52F78D171851FE2E5DCB343B7412E0E6E1A478786"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolygonCauchyIntegral/index.html",
+      "bytes": 19430,
+      "sha256": "CD724B424AD51EA4B5EB1B45BF7B39FF519A0DB6F4B2CEADD1075B0308957AC2"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolygonCauchyReproduction/index.html",
+      "bytes": 26313,
+      "sha256": "5C2DE5CB4883DD4ADCEBDDE234C375E36A8F2555847E1AFA39361A1B15564562"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialAlgebraicUnion/index.html",
+      "bytes": 7483,
+      "sha256": "7355119680DBE5431C906553AB83F472422A8974A41D1CE83A1FCEF1A42F7C50"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialBezoutCutoff/index.html",
+      "bytes": 22145,
+      "sha256": "80E5C52C4259FD189B30F77771BAB31E6F9CECA449715DC39183DF4C891FC519"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialConvexity/index.html",
+      "bytes": 17092,
+      "sha256": "5731E23AE306D0A461FC3F74F99DBC1DE1F2C4EDFA7901D4DDFBCABA9DF4394B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialConvexNeighbourhood/index.html",
+      "bytes": 10262,
+      "sha256": "7A19CF80B042DE7D387C9AE7488757AC3C558BF0264EAFF21725DEC63A84306D"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialConvexUnion/index.html",
+      "bytes": 16400,
+      "sha256": "B7B80E28916B948734FE5B1253FB06CD9C986DFED793930FBC7DAE72F52448B2"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialCutoff/index.html",
+      "bytes": 24080,
+      "sha256": "29EB2E807D87F8F80CC23EE10855FC15CBD54C26C844A4999911024E45949950"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialExteriorCutoff/index.html",
+      "bytes": 19604,
+      "sha256": "8E93760710038DADBFC6240B80C27F4910CE835C63BB4EDE86F04406FD549739"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialFamilyEvaluation/index.html",
+      "bytes": 15658,
+      "sha256": "A1EC3C0673A8D3BA20F0E2155E9BD5574B2E185581191F36E6B92F90884C52BA"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialFamilyRegularity/index.html",
+      "bytes": 27125,
+      "sha256": "B4712558F3628A318A7A224BCE03F8192A52D295213D24E10B54F003DCEEB2C5"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialFieldArrays/index.html",
+      "bytes": 21010,
+      "sha256": "17A1E9E49557C5A53E3A3CD7A743922EE6E6D2F6CA5CC6D49F79379FFF431BB8"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialFieldDecomposition/index.html",
+      "bytes": 14778,
+      "sha256": "B039D4E68E82DE89E99943823A98967D2821CAC73603832A2EE2EA3A19CC8793"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialFieldFamily/index.html",
+      "bytes": 18151,
+      "sha256": "1D8D1FE6BDFCCD7DAC1273618BEE47B9B7375104BFD810EAE6444282376020CF"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialFieldRealization/index.html",
+      "bytes": 42423,
+      "sha256": "A1CC14DCDB418AAC00F2FFD59D0CA7C7F0670A843BBAD0DDA86C80CD151D79F6"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialFunctionAlgebra/index.html",
+      "bytes": 25752,
+      "sha256": "60D0473DD78E8AD1F07D356591C0F4289F7B5D5E62E9CFD2B8D3ADD0051DABAD"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialFunctionCutoff/index.html",
+      "bytes": 19601,
+      "sha256": "4E54CE746508749A550910DC7AA511427E6522C82D6E807EF7FE060440D648C0"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialFunctionResolvent/index.html",
+      "bytes": 24432,
+      "sha256": "043B40CAB26975D8321F500777FA27B86A86975968220874E13168BBFC17E03B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialPolygonTransform/index.html",
+      "bytes": 12704,
+      "sha256": "D730AAC9BD4B3CF3E332FAD03C10193AF5E1A63EA37DC44DE5B3D67807D50B1C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialProjectionSpectrum/index.html",
+      "bytes": 17919,
+      "sha256": "4C9E69C2353A88DE2CF7DFFD4E3772264B1F11E90DBA72A911ED1131BB1E6A53"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialResolventContinuation/index.html",
+      "bytes": 12704,
+      "sha256": "D1DE34A581EA9AFC55E10C6954090A6903B2FC4599384C88A8D0E30912A10A86"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialRestrictionMap/index.html",
+      "bytes": 14339,
+      "sha256": "877D51D6BE3387A09C372359D8C10940FCCB4AF190870E3EA6F6CF7F77A92F3F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/PolynomialShears/index.html",
+      "bytes": 17757,
+      "sha256": "99BEA32A1877C12A696692635478129EB0C351A796A34A135F0420C6124F865C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ProductHalfcutOpenness/index.html",
+      "bytes": 16076,
+      "sha256": "588CBC2A22CB99FBA29D8934E509E87C308AC144DD77B9334BEBC75E17B650AB"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ProofObligations/index.html",
+      "bytes": 14834,
+      "sha256": "E4625C4EDBF66497BD2863073A5891AE7C1D049A4D67F263FEA46F1C0017575F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/QuarterScaleBasin/index.html",
+      "bytes": 21579,
+      "sha256": "831CC349F5BE3CAB58D5EA6F206A870857F2A56F412D304B79C7193D7CA4D0CB"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialAdaptiveIteration/index.html",
+      "bytes": 19955,
+      "sha256": "711FE56446A94EE64971314E3BC2E17FCC638138751CE0734BD4282E73831F17"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialCompactFamily/index.html",
+      "bytes": 16819,
+      "sha256": "35FD3F10666009B2720FA90F64CE2ADB01EC4C435F0A89481DB9916466F54226"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialCompactPush/index.html",
+      "bytes": 43749,
+      "sha256": "C0DF701EC7091864686E455C672F5CDB1FE37BE0B99EDE75346958A7BD3A6F44"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialCutoffField/index.html",
+      "bytes": 17651,
+      "sha256": "CC714EBB9735E83DE1BC7F96AB361019085926EC41395424A1DA147EBA3F5635"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialCutoffTubes/index.html",
+      "bytes": 18372,
+      "sha256": "93BB6DDF86669E360924953944E4BF98C098254C83C83EAD4029CCA4BDEE0D25"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialIterationBudgets/index.html",
+      "bytes": 19664,
+      "sha256": "FD96CA8CDFF170988E72E922FC30B22690C5389B4E40EDACF2F805B19EA2584C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialMeshApproximation/index.html",
+      "bytes": 27507,
+      "sha256": "D6D6F1B92081F8729FDECF81C9CAF1520022FB27450197F16EB0B079E8FCE70A"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialPolynomialExpulsion/index.html",
+      "bytes": 13892,
+      "sha256": "F23F3D2C40FAA14DADFF1C0AFDD6D2890652EE07C4C45E845977E023D710E8B3"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialPolynomialFamily/index.html",
+      "bytes": 18028,
+      "sha256": "63E7F539E41F4E739D01263FEB5D972E6E459F2E875DC212710AC43874BD8A15"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialPolynomialField/index.html",
+      "bytes": 17444,
+      "sha256": "BFF0CE7B4BF786F3ABA6649DC24EFEFD4595D0865BDB02DA4F070F06CF10F09B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialPolynomialPush/index.html",
+      "bytes": 10037,
+      "sha256": "BD44F2CAFC3704A942E65F767DA9FDD6EECFF1C94B7CC32A388814E382C14099"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialPolynomialRealization/index.html",
+      "bytes": 19075,
+      "sha256": "139F098880B5DCEEDBE6184B3A43ECA5E52B0A2B8CB060CE9FDC8F1273386768"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialPolynomialSeed/index.html",
+      "bytes": 16143,
+      "sha256": "60E2D79B331ED9A06035834C77A6D9ADBBC6C7589923CE944839B1E930ED6921"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialPushIteration/index.html",
+      "bytes": 49627,
+      "sha256": "D604119333B99CD2142ED4436F99C1BE8C8AB40EA56595CEC0CFABA86FCAEB86"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RadialSeparatorPropagation/index.html",
+      "bytes": 29214,
+      "sha256": "359ADAF4BE177CEDD0BCC2A56AD4B733E75037C363FEFC667AA26DF7CBB13B5D"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleAdditiveSplitting/index.html",
+      "bytes": 17520,
+      "sha256": "BB02DDA68DA4AF66CBCD0913B2EF3E2B3470A78E3CB8B2B12DA0D2456FCB7380"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleCauchyAlgebra/index.html",
+      "bytes": 18095,
+      "sha256": "BDFB80A875B9598D98575E4DEF878701E7EB1D92B86D4830EE9AB59D4B06C42A"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleCauchyDomains/index.html",
+      "bytes": 20485,
+      "sha256": "6D55C461480909ADA7F7759F0CEF75AC83EF1484D00AA9D7BA957481137BA67C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleCauchyExterior/index.html",
+      "bytes": 6079,
+      "sha256": "DB475BA5435757C9AC4FD21E0B780AECF680FBACFE975DFC007B0AA64431223A"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleCauchyIntegral/index.html",
+      "bytes": 10148,
+      "sha256": "799D9ECAC57E54005A9871E70B2641A3315EFCF4C0093A43371AD590AE86945C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleCauchyKernel/index.html",
+      "bytes": 21385,
+      "sha256": "80DCCC62DB01A7BFDCBE269FC2F76C9E4F66957A4BD5EE285A96356BD7C0932D"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleCauchyLinearity/index.html",
+      "bytes": 17485,
+      "sha256": "442D3D37D1928B5C92542F2C81B165F0097EE02D44551EE2259606F96F35452F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleCauchyOperators/index.html",
+      "bytes": 23819,
+      "sha256": "C6C4A22EC98496BDF0BE5B196304CB8E6B4D3B2A8C735E21E947F104C187B7F1"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleCauchyReproduction/index.html",
+      "bytes": 12927,
+      "sha256": "18A92FEC7C1AB414A77A6766FD80C184BC58955B55899AF2E1FEB143DCF5B4FA"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectanglePairSplitting/index.html",
+      "bytes": 8915,
+      "sha256": "65D86AE31AD004214D78C9CA894DF0D31B4B7BBE17DDDE49BE679C3CE70B3E33"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RectangleSeparatedSplitting/index.html",
+      "bytes": 23870,
+      "sha256": "07061B01262152A72111E402ABB4A678E643A272B9673E9A1187697734EF691F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/RemainingInputs/index.html",
+      "bytes": 13127,
+      "sha256": "EE48D1E7B0A731ED4D2AEA781CC3A87972CE8EDF661D94716D3AC0A5C0696C01"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SchwarzDerivativeBounds/index.html",
+      "bytes": 12593,
+      "sha256": "1000374AF8C1CB458EA8483AEC59938F5E9E2482CFB0F14792DFE316D7E0D7DC"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SeparatedCapPolynomialCutoff/index.html",
+      "bytes": 28720,
+      "sha256": "E9B627B1B513D4393368FE68140B9C86ADE5EAAF4FBF96B0E99171344AFA821B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SeparatedCapPolynomialGluing/index.html",
+      "bytes": 22633,
+      "sha256": "1FC3A2ECCA149D1C554B975BF456251F9E120E4D1B20BEC5171A523A1DBC949F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SeparatedConvexParameterApproximation/index.html",
+      "bytes": 12939,
+      "sha256": "ADDDD5930FE7371171324160B6DFB7870B15A2A49A938EA526B196B13B0328E7"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SeveralVariableUniformLimit/index.html",
+      "bytes": 21360,
+      "sha256": "43F313419FACD5F49DDE155A9D035FBB6E4BF3AA2719BC0564540B2ADA6A1353"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SmallQuadraticRemainder/index.html",
+      "bytes": 6761,
+      "sha256": "4EE233FD4CD020E9375CF5C4C8DD7CFC7D6F42CBF908C8D0629F22D78F9875BD"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SmallScaleBasin/index.html",
+      "bytes": 24335,
+      "sha256": "A02CF52DEF92DDDAAC65ECCE901F25921336DDD68063FD2EC28A2F2579CC719E"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SmallScaleHenonGeometry/index.html",
+      "bytes": 10785,
+      "sha256": "2ADB39DA441DB4C05D92E44817AA342C77F623B7B8E0C9722FEE95FF84B46154"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SmallScaleHenonTrapping/index.html",
+      "bytes": 27365,
+      "sha256": "5C292496748805A94B399DA4125F24A75296CD9D63FDD1BDFA372A075D362944"
+    },
+    {
+      "path": "sources/AutomaticContinuity/SmallScaleKoenigsEstimates/index.html",
+      "bytes": 23823,
+      "sha256": "AA28075D1B66CBCAE6E91BC13BE5CC48B8266B1A98F719FDE4A4B8DD5AE378F8"
+    },
+    {
+      "path": "sources/AutomaticContinuity/StageStep/index.html",
+      "bytes": 37267,
+      "sha256": "B98DBD0E136D12AC41605CC853AFBBBC79AAFAE7C5F76A73323848BB6E38B50D"
+    },
+    {
+      "path": "sources/AutomaticContinuity/Statement/index.html",
+      "bytes": 10747,
+      "sha256": "67B83DE4D7C80823258D601AFECFD81AEB27BF810643DC68C7A71CAA8F7FCE3B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/Substitution/index.html",
+      "bytes": 31452,
+      "sha256": "1CF66248F47AA2E1FAACFCDEB4C149D95C68A39072889EB00D7F09571B3E8B8E"
+    },
+    {
+      "path": "sources/AutomaticContinuity/TaylorRepresentation/index.html",
+      "bytes": 22271,
+      "sha256": "54B978DFBF64141AEA93DDB09584CF4419BB0A73FA974345E395773778DE64B1"
+    },
+    {
+      "path": "sources/AutomaticContinuity/TaylorStageRepresentation/index.html",
+      "bytes": 8794,
+      "sha256": "67378513AACBAF80B8AF253628335607C8CDBB88BF9FFD15174DC5CCC11B5AF0"
+    },
+    {
+      "path": "sources/AutomaticContinuity/TheoremA/index.html",
+      "bytes": 7470,
+      "sha256": "BA0434DAF5EEA50A61B239097F6A85BA8F102ABE42891337A65133AFD3765EBF"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ThinRectangleCaps/index.html",
+      "bytes": 19970,
+      "sha256": "437B622523209EC162E27285911A33ED99F2110943A7116480614B318F96A338"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ThinRectangleGeometry/index.html",
+      "bytes": 20928,
+      "sha256": "CD0BF8FD6C884AD34ED04F3C093ECA58E8D47C8214A2B1AF7D7A64AFC2EBF2A5"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ThinRectangleOpenCaps/index.html",
+      "bytes": 13945,
+      "sha256": "18E0B432FE160AC63380F7DAF6A46C8114DC7F18DD0C851A87A31BC14EB0DE5B"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ThinRectangleProduct/index.html",
+      "bytes": 11699,
+      "sha256": "A0BECEA7F1D6A005AA82B25142327F5E2B8F443F988A249CE79A96CBF29B9387"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ThinRectangleTransferDomains/index.html",
+      "bytes": 25767,
+      "sha256": "A2951E896E1743F497A8A4040BB0BE77DD47D33761A3CE0C2E5A618B3087AD10"
+    },
+    {
+      "path": "sources/AutomaticContinuity/ThreeStageConstruction/index.html",
+      "bytes": 27762,
+      "sha256": "C57CD736F2D5268147E90F9C40EE649DBDD5626F7800F6170940F9996EB0AD3F"
+    },
+    {
+      "path": "sources/AutomaticContinuity/TranslatedPolynomialConvexity/index.html",
+      "bytes": 6842,
+      "sha256": "D3CC9BCD8DB59BF081D8D5702131408E2D69E75BD00E7B287065828681968600"
+    },
+    {
+      "path": "sources/AutomaticContinuity/UniformParameterBasin/index.html",
+      "bytes": 14932,
+      "sha256": "B30AB62F5AE8B8D78CDF7E09391B3457F6EB137A15B82962AADB343988B920C9"
+    },
+    {
+      "path": "sources/AutomaticContinuity/UniformParameterKoenigs/index.html",
+      "bytes": 45610,
+      "sha256": "B30933E94FA8084322B265A936AB1BC96B675D70FD907F1F8F36F892DD6D8B6C"
+    },
+    {
+      "path": "sources/AutomaticContinuity/UnitizationReduction/index.html",
+      "bytes": 7544,
+      "sha256": "F937FF579652B1D98309E99CC27AB92C4C4D93A174051FF0314DD663E63089EA"
+    },
+    {
+      "path": "sources/AutomaticContinuity/UnitizationTopology/index.html",
+      "bytes": 28117,
+      "sha256": "FD2B13D7E58C354C1D03EAE3092224B2258E04D5E73A1D0FE6EAF57D26BFB74D"
+    },
+    {
+      "path": "sources/CompletionAudit/index.html",
+      "bytes": 7520,
+      "sha256": "18A9B14432D74F2D21EE3E3108994D58BD814F2A4B9527A045777C18EFCBEDBD"
+    },
+    {
+      "path": "verification/axioms.txt",
+      "bytes": 598,
+      "sha256": "C58026A7D934E92FE05FD09785C172C913EFF09D1236B84FC3BACBD953EC9B23"
+    },
+    {
+      "path": "verification/fresh/coverage.json",
+      "bytes": 8815394,
+      "sha256": "B5A62B097A20D5F7687E1DF0A8F0B2EB84EDDDE2D36CCE94C77E89DCE630B3C2"
+    },
+    {
+      "path": "verification/fresh/EVIDENCE_FILES_SHA256.json",
+      "bytes": 2102113,
+      "sha256": "9637B732E3D012AA4433D28443DAE5928A65732AF2DE1691EEF9E5069FC3B696"
+    },
+    {
+      "path": "verification/fresh/EXPORT_RECEIPT.json",
+      "bytes": 766,
+      "sha256": "9222D4697A8EB5C6E9B60617A3AF85698169D5DC0E2346E86CD1B4E76D36E957"
+    },
+    {
+      "path": "verification/fresh/FreshVerification.lean",
+      "bytes": 6433,
+      "sha256": "76974A5E1415FC548B7D5877C612DB35D8D98FEA3E03D93D94038495C9992EAA"
+    },
+    {
+      "path": "verification/fresh/PUBLIC_COPY_MANIFEST.json",
+      "bytes": 6634217,
+      "sha256": "BFDBD0C234DF7EA9A98EF01BC6990EF921F05EE344921BCCF1696FD0FC48A70E"
+    },
+    {
+      "path": "verification/fresh/report.json",
+      "bytes": 7747,
+      "sha256": "15FFFA67F9F07DEB5ADFE7F8D611165B1C1E4791F8179522966EC82A2F0FED9E"
+    },
+    {
+      "path": "verification/fresh/report.txt",
+      "bytes": 4079,
+      "sha256": "6EAB33B8419079D51C3050EF0AEF424ED780F1DCA1E7D4D8686F53C56BD66D80"
+    },
+    {
+      "path": "verification/fresh/REPRODUCING.md",
+      "bytes": 11301,
+      "sha256": "10BBFF63B39EFADB781BEE4439F9DAFEA31150A3B6C3A2C9F475388B481A7201"
+    },
+    {
+      "path": "verification/fresh/theorem-and-axioms.txt",
+      "bytes": 4621,
+      "sha256": "277D9668D33E1448F6EAC035CECC2B52C5B01987E5B9F33587C7671B56A9FEB2"
+    },
+    {
+      "path": "verification/history/20260923-cached-report.json",
+      "bytes": 20570,
+      "sha256": "587A0E45ED70D6B3269D654668388C4E0D4A4B58DF3392ABB5BBE12F281251E1"
+    },
+    {
+      "path": "verification/history/20260923-cached-report.txt",
+      "bytes": 1747,
+      "sha256": "8A41D9CABF8338BF8E496CCE0474C0804CC6BC08F2A5EE978CE6BCCEC623F3F4"
+    },
+    {
+      "path": "verification/index.html",
+      "bytes": 33044,
+      "sha256": "4F54707BBBED64695035A30C7704CF72A2C65E4F68279FA473BA4D6963FBD177"
+    },
+    {
+      "path": "verification/report.json",
+      "bytes": 7747,
+      "sha256": "15FFFA67F9F07DEB5ADFE7F8D611165B1C1E4791F8179522966EC82A2F0FED9E"
+    },
+    {
+      "path": "verification/report.txt",
+      "bytes": 4079,
+      "sha256": "6EAB33B8419079D51C3050EF0AEF424ED780F1DCA1E7D4D8686F53C56BD66D80"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "preparedUtc": "2026-09-23T14:23:07.422271+00:00",
+  "sourceSnapshot": "CompletedExtension-20260923T075439Z",
+  "archiveFile": "automatic-continuity-fresh-evidence.zip",
+  "archiveBytes": 8979969,
+  "archiveSha256": "E5E2917FB7732A78B1C7F99DA4ED1CBACAB8DE1F8F2E4E51AA7AFCF71D896B0B",
+  "archiveMembers": 9737,
+  "evidenceManifestSha256": "9637B732E3D012AA4433D28443DAE5928A65732AF2DE1691EEF9E5069FC3B696",
+  "reportSha256": "15FFFA67F9F07DEB5ADFE7F8D611165B1C1E4791F8179522966EC82A2F0FED9E",
+  "originalFinalStatusSha256": "C1AF2C61B1146EDB82C74EE09CA99BDFC7CA24388B090570B30FBAAFBBABE9B2",
+  "originalRecordsPreserved": true,
+  "allPublicCopiesPrivacyChecked": true,
+  "archiveIntegrityChecked": true,
+  "published": false
+}

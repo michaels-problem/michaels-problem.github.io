@@ -1,0 +1,745 @@
+{
+  "description": "Summary prepared for this companion website; machine-specific runner records are omitted.",
+  "snapshot": "CompletedExtension-20260923T075439Z",
+  "originalStatusSha256": "FC8C0AB1E5CBC7B83A00E6974BE94CA9D377ABE30DBABDBB3535FACF29784881",
+  "originalSourceManifestSha256": "CB29788800BB1E43CBC9FC8644339678EDFD7AD7E39D15B098088D064AB69A01",
+  "status": "PASS",
+  "targetDeclaration": "AutomaticContinuity.theoremA",
+  "targetStatement": "AutomaticContinuity.TheoremAStatement.{u}",
+  "targetProved": true,
+  "finishedUtc": "2026-09-23T08:33:32.7294394Z",
+  "lean": "leanprover/lean4:v4.34.0-rc2",
+  "mathlib": "4cbb42e75a050e830b7cf0f2ae748d7644f59cf7",
+  "mathematicalModules": 251,
+  "checks": [
+    {
+      "source": "AutomaticContinuity/AdaptiveInverseControl.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 18.85705
+    },
+    {
+      "source": "AutomaticContinuity/HomogeneousCoefficientBasis.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 14.9887448
+    },
+    {
+      "source": "AutomaticContinuity/HomogeneousPowerBasis.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 13.7155928
+    },
+    {
+      "source": "AutomaticContinuity/DiscreteTrajectoryStability.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.9030472
+    },
+    {
+      "source": "AutomaticContinuity/EuclideanTrajectoryStability.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.357214
+    },
+    {
+      "source": "AutomaticContinuity/RadialCutoffField.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.7014918
+    },
+    {
+      "source": "AutomaticContinuity/RadialPolynomialField.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.6042728
+    },
+    {
+      "source": "AutomaticContinuity/HomogeneousCoefficientSelection.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.4127767
+    },
+    {
+      "source": "AutomaticContinuity/HomogeneousFieldDecomposition.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.1088658
+    },
+    {
+      "source": "AutomaticContinuity/HomogeneousFieldCoefficientSelection.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.8610226
+    },
+    {
+      "source": "AutomaticContinuity/ParameterOvershears.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.7920691
+    },
+    {
+      "source": "AutomaticContinuity/OvershearEulerBounds.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.1931948
+    },
+    {
+      "source": "AutomaticContinuity/DirectionalCompleteFlows.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 13.2034432
+    },
+    {
+      "source": "AutomaticContinuity/HomogeneousFieldEvaluation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.0977834
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialFieldDecomposition.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.1649418
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialFieldArrays.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.2509147
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialFamilyRegularity.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.4602991
+    },
+    {
+      "source": "AutomaticContinuity/CenteredPolynomialFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.2723183
+    },
+    {
+      "source": "AutomaticContinuity/CompactCutoffTubes.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.0038158
+    },
+    {
+      "source": "AutomaticContinuity/CenteredPolynomialTubes.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.2430361
+    },
+    {
+      "source": "AutomaticContinuity/CenteredSeparatorData.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.2016249
+    },
+    {
+      "source": "AutomaticContinuity/FlagAffineContraction.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.2960349
+    },
+    {
+      "source": "AutomaticContinuity/FiniteHalfspaceExhaustion.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 16.455872
+    },
+    {
+      "source": "AutomaticContinuity/CircumscribedCoordinatePolygons.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.9971337
+    },
+    {
+      "source": "AutomaticContinuity/ClosedSubspaceAnalyticContinuation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.766822
+    },
+    {
+      "source": "AutomaticContinuity/FlagGraphCutoff.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.5831917
+    },
+    {
+      "source": "AutomaticContinuity/CompactBaseFlagGeometry.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.8056171
+    },
+    {
+      "source": "AutomaticContinuity/FlagCenteredSeparator.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.3079723
+    },
+    {
+      "source": "AutomaticContinuity/RadialCutoffTubes.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 16.6417542
+    },
+    {
+      "source": "AutomaticContinuity/RadialPolynomialFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 20.5705882
+    },
+    {
+      "source": "AutomaticContinuity/DirectionalFactors.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 20.3537592
+    },
+    {
+      "source": "AutomaticContinuity/FiniteFlowComposition.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 15.2997894
+    },
+    {
+      "source": "AutomaticContinuity/FiniteFlowHolomorphy.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.9842594
+    },
+    {
+      "source": "AutomaticContinuity/CompactFlowTaylor.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.2420205
+    },
+    {
+      "source": "AutomaticContinuity/DirectionalFlowComposition.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.3730115
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialFieldFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 15.5618793
+    },
+    {
+      "source": "AutomaticContinuity/DirectionalFlowLocalApproximation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 21.0802457
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialFieldRealization.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 15.5887261
+    },
+    {
+      "source": "AutomaticContinuity/FiniteFlowLocal.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.9021478
+    },
+    {
+      "source": "AutomaticContinuity/RadialMeshApproximation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.4064437
+    },
+    {
+      "source": "AutomaticContinuity/ParameterFibreComposition.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 28.5856536
+    },
+    {
+      "source": "AutomaticContinuity/RadialCompactPush.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 24.4240447
+    },
+    {
+      "source": "AutomaticContinuity/RadialPolynomialRealization.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 24.1116567
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialFamilyEvaluation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 22.3367297
+    },
+    {
+      "source": "AutomaticContinuity/FiberAutomorphismFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.3093052
+    },
+    {
+      "source": "AutomaticContinuity/RadialPolynomialPush.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 19.3131077
+    },
+    {
+      "source": "AutomaticContinuity/RadialSeparatorPropagation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 23.5616462
+    },
+    {
+      "source": "AutomaticContinuity/RadialPushIteration.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 14.4025211
+    },
+    {
+      "source": "AutomaticContinuity/RadialAdaptiveIteration.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.6830487
+    },
+    {
+      "source": "AutomaticContinuity/RadialIterationBudgets.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.248915
+    },
+    {
+      "source": "AutomaticContinuity/NonautonomousInverseLimit.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.7478508
+    },
+    {
+      "source": "AutomaticContinuity/NonautonomousEntryDomains.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.0703193
+    },
+    {
+      "source": "AutomaticContinuity/NonautonomousForwardLimit.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.5449382
+    },
+    {
+      "source": "AutomaticContinuity/NonautonomousInverseTails.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.729326
+    },
+    {
+      "source": "AutomaticContinuity/NonautonomousBiholomorphism.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.3746814
+    },
+    {
+      "source": "AutomaticContinuity/FixedBaseRadialBasin.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.506089
+    },
+    {
+      "source": "AutomaticContinuity/FlagInitialRadialState.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.2286394
+    },
+    {
+      "source": "AutomaticContinuity/FlagCompactBasin.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.3592944
+    },
+    {
+      "source": "AutomaticContinuity/FlagDominatingFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.8689564
+    },
+    {
+      "source": "AutomaticContinuity/CompactBaseFlagFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 226.8737538
+    },
+    {
+      "source": "AutomaticContinuity/CompactBaseFlagInverse.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 17.166432
+    },
+    {
+      "source": "AutomaticContinuity/FlagBumpChart.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.3113481
+    },
+    {
+      "source": "AutomaticContinuity/FlagScalingBuffer.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.9466689
+    },
+    {
+      "source": "AutomaticContinuity/CompactBaseFlagMargin.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.0810231
+    },
+    {
+      "source": "AutomaticContinuity/CompactConvexPolynomialConvexity.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.9359105
+    },
+    {
+      "source": "AutomaticContinuity/CompactFamilyHolomorphy.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.396095
+    },
+    {
+      "source": "AutomaticContinuity/CompactFamilyInverseCoordinates.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.9152665
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialFunctionResolvent.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 13.0983792
+    },
+    {
+      "source": "AutomaticContinuity/SeparatedCapPolynomialCutoff.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 13.8715648
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialProjectionSpectrum.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.7670296
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialResolventContinuation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 19.5436683
+    },
+    {
+      "source": "AutomaticContinuity/PlanarEscapeRays.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.7531303
+    },
+    {
+      "source": "AutomaticContinuity/ConvexProductPolynomialConvexity.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.5025512
+    },
+    {
+      "source": "AutomaticContinuity/PlanarRotatedEscapeRays.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 9.6087204
+    },
+    {
+      "source": "AutomaticContinuity/CompactSeparatedCapCutoff.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.9419646
+    },
+    {
+      "source": "AutomaticContinuity/ContourIntegralOperators.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.8758804
+    },
+    {
+      "source": "AutomaticContinuity/RectangleCauchyIntegral.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 18.6324472
+    },
+    {
+      "source": "AutomaticContinuity/RectangleCauchyOperators.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.2770734
+    },
+    {
+      "source": "AutomaticContinuity/RectangleCauchyDomains.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.8082682
+    },
+    {
+      "source": "AutomaticContinuity/RectangleCauchyKernel.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.1531569
+    },
+    {
+      "source": "AutomaticContinuity/RectangleCauchyAlgebra.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.7320232
+    },
+    {
+      "source": "AutomaticContinuity/RectangleCauchyReproduction.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 13.8076693
+    },
+    {
+      "source": "AutomaticContinuity/RectangleAdditiveSplitting.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.9908992
+    },
+    {
+      "source": "AutomaticContinuity/RectangleSeparatedSplitting.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.8852784
+    },
+    {
+      "source": "AutomaticContinuity/ThinRectangleGeometry.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.6268945
+    },
+    {
+      "source": "AutomaticContinuity/ThinRectangleCaps.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.1044423
+    },
+    {
+      "source": "AutomaticContinuity/ThinRectangleProduct.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.0742944
+    },
+    {
+      "source": "AutomaticContinuity/ThinRectangleOpenCaps.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.5609947
+    },
+    {
+      "source": "AutomaticContinuity/ConvexCompactBuffer.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.1945732
+    },
+    {
+      "source": "AutomaticContinuity/EuclideanExteriorPaths.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.8449662
+    },
+    {
+      "source": "AutomaticContinuity/FlagStrongMarginFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.0437617
+    },
+    {
+      "source": "AutomaticContinuity/FlagAdditiveGluing.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.8548358
+    },
+    {
+      "source": "AutomaticContinuity/FlagSectionApproximation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.099815
+    },
+    {
+      "source": "AutomaticContinuity/FlagApproximationPath.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.1494717
+    },
+    {
+      "source": "AutomaticContinuity/FlagApproximationOpenness.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.8855192
+    },
+    {
+      "source": "AutomaticContinuity/HolomorphicFlagContraction.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.2227337
+    },
+    {
+      "source": "AutomaticContinuity/ConvexFlagApproximationPrinciple.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 14.0636175
+    },
+    {
+      "source": "AutomaticContinuity/RadialCompactFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 18.7915333
+    },
+    {
+      "source": "AutomaticContinuity/RadialPolynomialSeed.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 19.4364333
+    },
+    {
+      "source": "AutomaticContinuity/ConvexPolynomialApproximation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.4163976
+    },
+    {
+      "source": "AutomaticContinuity/ConvexNeighbourhoodFlagFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 18.3746351
+    },
+    {
+      "source": "AutomaticContinuity/FlagApproximationTransfer.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 22.5605431
+    },
+    {
+      "source": "AutomaticContinuity/CoordinateCutChart.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 16.5875175
+    },
+    {
+      "source": "AutomaticContinuity/CoordinateCutConvexity.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 14.3621763
+    },
+    {
+      "source": "AutomaticContinuity/CoordinateProductGeometry.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 13.365899
+    },
+    {
+      "source": "AutomaticContinuity/CoordinateProductChart.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.6970559
+    },
+    {
+      "source": "AutomaticContinuity/FlagRectangleSplitting.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.9589439
+    },
+    {
+      "source": "AutomaticContinuity/FlagApproximationComposition.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.0892048
+    },
+    {
+      "source": "AutomaticContinuity/SeparatedCapPolynomialGluing.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.5968817
+    },
+    {
+      "source": "AutomaticContinuity/FlagPolynomialParameterApproximation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.9158431
+    },
+    {
+      "source": "AutomaticContinuity/SeparatedConvexParameterApproximation.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.4088328
+    },
+    {
+      "source": "AutomaticContinuity/CoordinateRectangleTransfer.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 12.6431822
+    },
+    {
+      "source": "AutomaticContinuity/CutChainPolynomialConvexity.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 19.2105455
+    },
+    {
+      "source": "AutomaticContinuity/DirectionalFlowBounds.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 20.3771962
+    },
+    {
+      "source": "AutomaticContinuity/EntireStageFamily.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 22.4112811
+    },
+    {
+      "source": "AutomaticContinuity/FlagConvexHomotopy.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 19.3156208
+    },
+    {
+      "source": "AutomaticContinuity/FlagHomotopyPatching.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 18.2407728
+    },
+    {
+      "source": "AutomaticContinuity/FlagConvexGlobalization.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 18.1938569
+    },
+    {
+      "source": "AutomaticContinuity/FiniteFlagCutReduction.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 20.7071702
+    },
+    {
+      "source": "AutomaticContinuity/FiniteFlowInverseEstimates.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 20.2022599
+    },
+    {
+      "source": "AutomaticContinuity/FixedExtendingSection.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 19.8021625
+    },
+    {
+      "source": "AutomaticContinuity/FlagBumpHomotopy.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 22.1197552
+    },
+    {
+      "source": "AutomaticContinuity/FlagPolynomialPush.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 22.2584266
+    },
+    {
+      "source": "AutomaticContinuity/RadialPolynomialExpulsion.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 21.2111767
+    },
+    {
+      "source": "AutomaticContinuity/FlagPolynomialExpulsion.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 21.4772388
+    },
+    {
+      "source": "AutomaticContinuity/FlagObstaclePush.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 21.8466013
+    },
+    {
+      "source": "AutomaticContinuity/FlagFixedTubePush.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 21.3696185
+    },
+    {
+      "source": "AutomaticContinuity/FlagHalfCutTrivialCases.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 20.7698783
+    },
+    {
+      "source": "AutomaticContinuity/HalfCutAssembly.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 20.2918206
+    },
+    {
+      "source": "AutomaticContinuity/PolygonCauchyIntegral.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 21.2754897
+    },
+    {
+      "source": "AutomaticContinuity/PolygonCauchyReproduction.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 19.1865879
+    },
+    {
+      "source": "AutomaticContinuity/PolynomialPolygonTransform.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 19.991037
+    },
+    {
+      "source": "AutomaticContinuity/ThinRectangleTransferDomains.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 22.3246661
+    },
+    {
+      "source": "AutomaticContinuity/ProductHalfcutOpenness.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 22.8866239
+    },
+    {
+      "source": "AutomaticContinuity/RectangleCauchyExterior.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 19.4273314
+    },
+    {
+      "source": "AutomaticContinuity/RectangleCauchyLinearity.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 20.2148219
+    },
+    {
+      "source": "AutomaticContinuity/RectanglePairSplitting.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 20.3031864
+    },
+    {
+      "source": "AutomaticContinuity/TheoremA.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 17.2072256
+    },
+    {
+      "source": "AutomaticContinuity.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 11.2869259
+    },
+    {
+      "source": "Audit.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 43.5624115
+    },
+    {
+      "source": "CompletionAudit.lean",
+      "exitCode": 0,
+      "elapsedSeconds": 10.8871585
+    }
+  ],
+  "freshChecks": 141,
+  "unchangedModulesReused": 113,
+  "auditedDeclarations": 3199,
+  "auditedTheorems": 2478,
+  "targetAxioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "unsafeProjectDeclarations": 0,
+  "sourceUnchanged": true,
+  "inventoryUnchanged": true,
+  "baselineEvidenceUnchanged": true,
+  "baselineArtifactsUnchanged": true,
+  "exactStatementChecked": true,
+  "remainingMathematicalHypotheses": [],
+  "fullLibraryRebuild": {
+    "status": "NOT YET RUN",
+    "report": null
+  },
+  "freshKernelReplayIncludingLibraries": {
+    "status": "NOT YET RUN",
+    "report": null
+  }
+}

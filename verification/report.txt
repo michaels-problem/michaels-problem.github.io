@@ -1,0 +1,32 @@
+Fresh verification of Theorem A
+
+Result: PASS
+Completed: 2026-09-23T14:19:52.493925+00:00
+Declaration: AutomaticContinuity.theoremA : AutomaticContinuity.TheoremAStatement.{u}
+
+The project and its imported non-toolchain libraries were rebuilt from their pinned sources. All 3,229 modules compiled successfully: 2,974 dependency modules, 251 mathematical project modules and four combined or audit modules. No compiled non-toolchain artifact from the earlier verification was reused. Successful work from this same fresh run was retained after a supervisory interruption, with source and artifact hashes checked before resumption. The detailed records retain every compilation attempt.
+
+The author also requested a pause for website work. The recorded pause ran from 2026-09-23T11:52:44.147293+00:00 to 2026-09-23T12:11:57.105347+00:00 (1152.958054 seconds). Total source-build wall time includes this interval. Wall time with this one recorded interval subtracted is reported separately; it is not CPU time and can still include other waits or interruptions. Individual compilation attempt durations can also span the pause. The public pause record contains only timing information and a fixed description; private process metadata is omitted.
+
+The matching official checker then replayed FreshVerification and its imported declarations in a fresh Lean kernel environment. The command was leanchecker --fresh --verbose FreshVerification, and its native exit code was zero. The retained toolchain declarations in that closure were included in the replay. This uses Lean's own kernel; it is not verification by an independently implemented kernel.
+
+The original project audit, completion audit and expanded audit all passed again after replay. The theorem has the exact original universe-polymorphic statement, with no additional mathematical hypotheses. The audit covers 3,199 project declarations, including 2,478 theorems. Their transitive axioms are propext, Classical.choice and Quot.sound. Project source, imported source and compiled-artifact hashes remained unchanged through the checks.
+
+The official checker skips unsafe and partial implementation declarations. The project has no unsafe declarations and has five partial compiler-generated recursion implementations. These helpers are listed in the coverage records and still underwent the project axiom audit. They are not additional assumptions of Theorem A.
+
+The pinned Lean compiler and bundled libraries were retained for compilation. Rebuilding the compiler itself and unrelated library modules was outside this run. The formalisation proves Theorem A by the recorded Lean argument; it does not certify every intermediate argument in the manuscript.
+
+Source build began: 2026-09-23T10:08:36.265752+00:00
+Source build finished: 2026-09-23T14:08:34.515748+00:00
+Source build wall-clock seconds, including the recorded pause: 14398.249996
+Recorded author-requested pause seconds: 1152.958054
+Source build wall-clock seconds excluding only that pause: 13245.291942
+Fresh replay began: 2026-09-23T14:10:56.261633+00:00
+Fresh replay finished: 2026-09-23T14:18:06.317141+00:00
+Fresh replay elapsed seconds: 430.05
+Lean: leanprover/lean4:v4.34.0-rc2
+Mathlib revision: 4cbb42e75a050e830b7cf0f2ae748d7644f59cf7
+Statement.lean SHA-256: FF6BF9029A3CCC3E4E6CF261CCD645ACC8B96D813BE55962A7EA0081AD530285
+Original final status SHA-256: C1AF2C61B1146EDB82C74EE09CA99BDFC7CA24388B090570B30FBAAFBBABE9B2
+
+These are separately prepared website copies of the verification records. The original records remain unchanged. Private locations have been replaced by logical directory labels. PUBLIC_COPY_MANIFEST.json records both original and public-copy hashes and sizes. The records include compiler exits, replay and final-audit logs, source and artifact identity, dependency revisions and import coverage. Preliminary checks made against earlier compiled files are outside this fresh verification and are not included in this download. File hashes identify versions; they do not replace proof checking.

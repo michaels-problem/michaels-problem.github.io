@@ -1,0 +1,46 @@
+Final theorem, definitions and axiom checks after fresh kernel replay.
+The per-import FRESH_MODULE rows are omitted here; the complete log is retained in records/evidence/post-replay-audits/FreshVerification/stdout.txt.
+
+@[reducible] def AutomaticContinuity.Character.{u} : (A : Type u) →
+  [inst : NonUnitalCommRing.{u} A] → [Module.{0, u} ℂ A] → Type (max 0 u) :=
+fun A [NonUnitalCommRing.{u} A] [Module.{0, u} ℂ A] => Subtype.{u + 1} fun χ => Ne.{u + 1} χ 0
+def AutomaticContinuity.IsSubmultiplicative.{u} : (A : Type u) →
+  [inst : NonUnitalCommRing.{u} A] → [inst_1 : Module.{0, u} ℂ A] → Seminorm.{0, u} ℂ A → Prop :=
+fun A [NonUnitalCommRing.{u} A] [Module.{0, u} ℂ A] p =>
+  ∀ (x y : A), LE.le.{0} (p (HMul.hMul.{u, u, u} x y)) (HMul.hMul.{0, 0, 0} (p x) (p y))
+def AutomaticContinuity.IsLocallyMultiplicativelyConvex.{u} : (A : Type u) →
+  [inst : NonUnitalCommRing.{u} A] → [Module.{0, u} ℂ A] → [TopologicalSpace.{u} A] → Prop :=
+fun A [NonUnitalCommRing.{u} A] [Module.{0, u} ℂ A] [TopologicalSpace.{u} A] =>
+  ∃ P,
+    (∀ (p : Seminorm.{0, u} ℂ A), Membership.mem.{u, u} P p → AutomaticContinuity.IsSubmultiplicative.{u} A p) ∧
+      WithSeminorms.{0, u, u} fun p => ↑p
+def AutomaticContinuity.BoundedOnBoundedSets.{u} : (A : Type u) →
+  [inst : NonUnitalCommRing.{u} A] → [Module.{0, u} ℂ A] → [TopologicalSpace.{u} A] → (A → ℂ) → Prop :=
+fun A [NonUnitalCommRing.{u} A] [Module.{0, u} ℂ A] [TopologicalSpace.{u} A] χ =>
+  ∀ (B : Set.{u} A),
+    Bornology.IsVonNBounded.{0, u} ℂ B →
+      ∃ C, LE.le.{0} 0 C ∧ ∀ (a : A), Membership.mem.{u, u} B a → LE.le.{0} (norm.{0} (χ a)) C
+def AutomaticContinuity.TheoremAStatement.{u} : Prop :=
+∀ (A : Type u) [inst : NonUnitalCommRing.{u} A] [inst_1 : Module.{0, u} ℂ A] [IsScalarTower.{0, u, u} ℂ A A]
+  [SMulCommClass.{0, u, u} ℂ A A] [inst_4 : UniformSpace.{u} A] [IsUniformAddGroup.{u} A] [T2Space.{u} A]
+  [CompleteSpace.{u} A],
+  AutomaticContinuity.IsLocallyMultiplicativelyConvex.{u} A →
+    ∀ (χ : AutomaticContinuity.Character.{u} A), AutomaticContinuity.BoundedOnBoundedSets.{u} A fun a => ↑χ a
+AutomaticContinuity.theoremA.{u_1} : AutomaticContinuity.TheoremAStatement.{u_1}
+theorem AutomaticContinuity.theoremA.{u} : AutomaticContinuity.TheoremAStatement.{u} :=
+AutomaticContinuity.theoremA_of_flag_approximation.{u} AutomaticContinuity.finiteFlagApproximation
+'AutomaticContinuity.theoremA' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+FreshVerification.exactTheoremA.{u_1} : AutomaticContinuity.TheoremAStatement.{u_1}
+'FreshVerification.exactTheoremA' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+FRESH_TARGET_AXIOMS [propext, Classical.choice, Quot.sound]
+FRESH_WITNESS_AXIOMS [propext, Classical.choice, Quot.sound]
+FRESH_EXACT_TARGET exactStatement=true universePolymorphic=true extraArguments=0 unsafe=0 partial=0 unexpectedAxioms=0
+FRESH_LOCAL_DECLARATION {"isPartial":false,"isTheorem":true,"isUnsafe":false,"name":"FreshVerification.exactTheoremA"}
+FRESH_PROJECT_CHECKER_SKIPPED {"isPartial":true,"isUnsafe":false,"module":"AutomaticContinuity.FiniteFlowHolomorphy","name":"AutomaticContinuity.FiniteFlowHolomorphy.compose._unsafe_rec"}
+FRESH_PROJECT_CHECKER_SKIPPED {"isPartial":true,"isUnsafe":false,"module":"AutomaticContinuity.FiniteCauchyIntegral","name":"AutomaticContinuity.FiniteCauchy.coefficient._unsafe_rec"}
+FRESH_PROJECT_CHECKER_SKIPPED {"isPartial":true,"isUnsafe":false,"module":"AutomaticContinuity.PolynomialCutoff","name":"AutomaticContinuity.PolynomialCutoff.iterate._unsafe_rec"}
+FRESH_PROJECT_CHECKER_SKIPPED {"isPartial":true,"isUnsafe":false,"module":"AutomaticContinuity.FiniteFlowComposition","name":"AutomaticContinuity.FiniteFlowComposition.applyFactors._unsafe_rec"}
+FRESH_PROJECT_CHECKER_SKIPPED {"isPartial":true,"isUnsafe":false,"module":"AutomaticContinuity.FiniteFlowLocal","name":"AutomaticContinuity.FiniteFlowLocal.compose._unsafe_rec"}
+FRESH_ENVIRONMENT_SUMMARY {"currentModule":{"declarations":1,"partial":0,"safeNonpartial":1,"theorems":1,"unsafe":0},"effectiveImports":4780,"mainModule":"FreshVerification","project":{"declarations":3199,"partial":5,"safeNonpartial":3194,"theorems":2478,"unsafe":0},"trustLevel":1025,"wholeEnvironment":{"declarations":424013,"partial":2943,"safeNonpartial":420417,"theorems":275975,"unsafe":653}}
+FRESH_PROJECT_AXIOM_UNION [propext, Quot.sound, Classical.choice]
+FRESH_AUDIT_GATES_PASS exactTarget=true projectUnexpectedAxioms=0 projectUnsafe=0 targetUnsafe=0 targetPartial=0

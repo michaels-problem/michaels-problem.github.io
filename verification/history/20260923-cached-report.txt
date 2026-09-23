@@ -1,0 +1,22 @@
+Theorem A: recorded Lean verification
+
+Status: PASS
+Completed: 23 September 2026, 08:33 UTC
+Snapshot: CompletedExtension-20260923T075439Z
+Theorem: AutomaticContinuity.theoremA : TheoremAStatement.{u}
+
+The run freshly checked 138 mathematical modules, the combined import and two audits (141 checks). It reused compiled artifacts for 113 unchanged project modules from the successful earlier full baseline and the pinned library dependencies. The project contains 251 mathematical modules.
+
+The exhaustive audit covers 3,199 declarations, including 2,478 theorems. Only propext, Classical.choice and Quot.sound occur as transitive axioms. No unsafe project declaration was found. An example of the exact universe-polymorphic statement compiled. No mathematical hypothesis remains beyond those in the statement.
+
+Source, configuration, module inventory, baseline evidence and reused baseline artifacts were unchanged.
+
+A full rebuild of the required library dependencies has NOT YET BEEN RUN. Fresh kernel replay including imported proofs has NOT YET BEEN RUN. These are separate planned checks.
+
+Lean: leanprover/lean4:v4.34.0-rc2
+Mathlib: 4cbb42e75a050e830b7cf0f2ae748d7644f59cf7
+Original status SHA-256: FC8C0AB1E5CBC7B83A00E6974BE94CA9D377ABE30DBABDBB3535FACF29784881
+Original source manifest SHA-256: CB29788800BB1E43CBC9FC8644339678EDFD7AD7E39D15B098088D064AB69A01
+Statement.lean SHA-256: FF6BF9029A3CCC3E4E6CF261CCD645ACC8B96D813BE55962A7EA0081AD530285
+
+This is a derived summary for the companion website. Original local reports remain unchanged; machine-specific paths and runner descriptions are not distributed. The hashes above identify the original records, not this summary. Current download hashes are listed in the website manifest.

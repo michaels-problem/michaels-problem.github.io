@@ -1,0 +1,95 @@
+{
+  "description": "SHA-256 hashes of the website downloads. The PDF is unchanged from the original manuscript; the source ZIP contains exact Lean files and separately written website documentation.",
+  "files": [
+    {
+      "path": "/downloads/theorem-a-lean-source.zip",
+      "bytes": 483512,
+      "sha256": "D4072D0F1E871BBA44856B9394E2945E4EF38E1D4EA6D879DADCB90FA460D320"
+    },
+    {
+      "path": "/paper/manuscript.pdf",
+      "bytes": 120564,
+      "sha256": "92D20DF8D5973D741F5B0AC5327AB0944E74FBB4C1DDEA12324C18D8FA42A3C2"
+    },
+    {
+      "path": "/verification/report.json",
+      "bytes": 7747,
+      "sha256": "15FFFA67F9F07DEB5ADFE7F8D611165B1C1E4791F8179522966EC82A2F0FED9E"
+    },
+    {
+      "path": "/verification/report.txt",
+      "bytes": 4079,
+      "sha256": "6EAB33B8419079D51C3050EF0AEF424ED780F1DCA1E7D4D8686F53C56BD66D80"
+    },
+    {
+      "path": "/verification/axioms.txt",
+      "bytes": 598,
+      "sha256": "C58026A7D934E92FE05FD09785C172C913EFF09D1236B84FC3BACBD953EC9B23"
+    },
+    {
+      "path": "/lean/SOURCE_MANIFEST.json",
+      "bytes": 41263,
+      "sha256": "5760229EBEB3B5C9D5D109D35116DC302C0404C7CFD5631901C9B20A41F07044"
+    },
+    {
+      "path": "/downloads/theorem-a-fresh-verification.zip",
+      "bytes": 8979969,
+      "sha256": "E5E2917FB7732A78B1C7F99DA4ED1CBACAB8DE1F8F2E4E51AA7AFCF71D896B0B"
+    },
+    {
+      "path": "/verification/fresh/report.json",
+      "bytes": 7747,
+      "sha256": "15FFFA67F9F07DEB5ADFE7F8D611165B1C1E4791F8179522966EC82A2F0FED9E"
+    },
+    {
+      "path": "/verification/fresh/report.txt",
+      "bytes": 4079,
+      "sha256": "6EAB33B8419079D51C3050EF0AEF424ED780F1DCA1E7D4D8686F53C56BD66D80"
+    },
+    {
+      "path": "/verification/fresh/theorem-and-axioms.txt",
+      "bytes": 4621,
+      "sha256": "277D9668D33E1448F6EAC035CECC2B52C5B01987E5B9F33587C7671B56A9FEB2"
+    },
+    {
+      "path": "/verification/fresh/REPRODUCING.md",
+      "bytes": 11301,
+      "sha256": "10BBFF63B39EFADB781BEE4439F9DAFEA31150A3B6C3A2C9F475388B481A7201"
+    },
+    {
+      "path": "/verification/fresh/FreshVerification.lean",
+      "bytes": 6433,
+      "sha256": "76974A5E1415FC548B7D5877C612DB35D8D98FEA3E03D93D94038495C9992EAA"
+    },
+    {
+      "path": "/verification/fresh/coverage.json",
+      "bytes": 8815394,
+      "sha256": "B5A62B097A20D5F7687E1DF0A8F0B2EB84EDDDE2D36CCE94C77E89DCE630B3C2"
+    },
+    {
+      "path": "/verification/fresh/PUBLIC_COPY_MANIFEST.json",
+      "bytes": 6634217,
+      "sha256": "BFDBD0C234DF7EA9A98EF01BC6990EF921F05EE344921BCCF1696FD0FC48A70E"
+    },
+    {
+      "path": "/verification/fresh/EVIDENCE_FILES_SHA256.json",
+      "bytes": 2102113,
+      "sha256": "9637B732E3D012AA4433D28443DAE5928A65732AF2DE1691EEF9E5069FC3B696"
+    },
+    {
+      "path": "/verification/fresh/EXPORT_RECEIPT.json",
+      "bytes": 766,
+      "sha256": "9222D4697A8EB5C6E9B60617A3AF85698169D5DC0E2346E86CD1B4E76D36E957"
+    },
+    {
+      "path": "/verification/history/20260923-cached-report.json",
+      "bytes": 20570,
+      "sha256": "587A0E45ED70D6B3269D654668388C4E0D4A4B58DF3392ABB5BBE12F281251E1"
+    },
+    {
+      "path": "/verification/history/20260923-cached-report.txt",
+      "bytes": 1747,
+      "sha256": "8A41D9CABF8338BF8E496CCE0474C0804CC6BC08F2A5EE978CE6BCCEC623F3F4"
+    }
+  ]
+}
